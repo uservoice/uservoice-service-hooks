@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <ticket>
+    <id type="integer"></id>
+    <ticket_number type="integer">1</ticket_number>
+    <subject>Test subject</subject>
+    <state></state>
+    <url>http://test.uservoice.com/admin/tickets/1</url>
+  </ticket>
+  <message>
+    <id type="integer"></id>
+    <body></body>
+    <is_admin_response type="boolean">false</is_admin_response>
+    <sender>
+      <id type="integer">265200417</id>
+      <name>Test User</name>
+      <email>test@example.com</email>
+      <url>http://test.uservoice.com/users/265200417-test-user</url>
+      <avatar_url>https://secure.gravatar.com/avatar/55502f40dc8b7c769880b10874abc9d0?size=70&amp;amp;default=http://assets3.uservoice.com/images/admin/icons/user_70.png</avatar_url>
+      <karma_score type="integer">0</karma_score>
+      <created_at type="datetime">2012-04-09T19:21:26Z</created_at>
+      <updated_at type="datetime">2012-04-09T19:21:26Z</updated_at>
+    </sender>
+    <attachments type="array">
+    </attachments>
+    <created_at type="datetime">2012-04-09T19:21:31Z</created_at>
+    <updated_at type="datetime">2012-04-09T19:21:31Z</updated_at>
+  </message>
+</response>
