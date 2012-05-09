@@ -9,6 +9,10 @@
     <custom_fields type="array">
     </custom_fields>
     <messages type="array">
+      <message>
+        <id type="integer">983253722</id>
+        <body>Test message</body>
+      </message>
     </messages>
     <notes type="array">
     </notes>

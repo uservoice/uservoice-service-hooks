@@ -63,6 +63,11 @@ class Services
       field(:checkbox, key, label, [], description)
     end
 
+    # Declare a password field parameter (label and description both take a lambda for localization, if appropriate)
+    def self.password(key, label, description="")
+      field(:password, key, label, [], description)
+    end
+
     def self.field(type, key, label, options, description)
       @fields ||= []
       @fields << {:type => type, :key => key.to_s, :label => label, :options => options, :description => description}
