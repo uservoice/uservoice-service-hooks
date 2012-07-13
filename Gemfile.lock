@@ -27,6 +27,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
+  multi_json
   rake
   rspec
   webmock
