@@ -1,21 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <response>
   <suggestion>
-    <url>
-      http://initech.uservoice.com/forums/1155-initech/suggestions/7839-fax-machine-on-2nd-floor-is-broken
-    </url>
+    <url>http://initech.uservoice.com/forums/1155-initech/suggestions/7839-fax-machine-on-2nd-floor-is-broken</url>
     <id type='integer'>7839</id>
     <state>approved</state>
     <title>Fax Machine on 2nd Floor is Broken</title>
-    <text>
-      The digital readout states, &quot;PC Load Letter&quot; Does anyone know
-      what that means?
-    </text>
-    <formatted_text>
-      &lt;div class=&quot;typeset&quot;&gt;&lt;p&gt;The digital readout states,
-      &amp;quot;PC Load Letter&amp;quot;&lt;/p&gt; &lt;p&gt;Does anyone know
-      what that means?&lt;/p&gt;&lt;/div&gt;
-    </formatted_text>
+    <text>The digital readout states, &quot;PC Load Letter&quot; Does anyone know what that means?</text>
+    <formatted_text>&lt;div class=&quot;typeset&quot;&gt;&lt;p&gt;The digital readout states, &amp;quot;PC Load Letter&amp;quot;&lt;/p&gt; &lt;p&gt;Does anyone know what that means?&lt;/p&gt;&lt;/div&gt;</formatted_text>
     <vote_count type='integer'>5</vote_count>
     <comments_count type='integer'>0</comments_count>
     <supporters_count type='integer'>4</supporters_count>
@@ -48,9 +39,7 @@
       <email>michael@initech.com</email>
       <title/>
       <url>http://initech.uservoice.com/users/13558-michael-bolton</url>
-      <avatar_url>
-        https://secure.gravatar.com/avatar/9f20f8f9df6cf4c8d30f0a232db9ea33?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png
-      </avatar_url>
+      <avatar_url>https://secure.gravatar.com/avatar/9f20f8f9df6cf4c8d30f0a232db9ea33?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png</avatar_url>
       <karma_score type='integer'>109</karma_score>
       <created_at type='datetime'>2008-06-15T22:40:21Z</created_at>
       <updated_at type='datetime'>2010-11-08T01:30:10Z</updated_at>

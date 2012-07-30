@@ -25,9 +25,7 @@
       <email>peter.gibbons@initech.com</email>
       <title/>
       <url>http://initech.uservoice.com/users/13552-peter-gibbons</url>
-      <avatar_url>
-        https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png
-      </avatar_url>
+      <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png</avatar_url>
       <karma_score type='integer'>13</karma_score>
       <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
       <updated_at type='datetime'>2012-07-30T12:47:24Z</updated_at>

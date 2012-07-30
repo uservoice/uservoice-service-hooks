@@ -4,28 +4,14 @@
     <id type='integer'>3462</id>
     <state>approved</state>
     <text>What coversheets? Did I get that memo? Was there a memo?</text>
-    <formatted_text>
-      &lt;div class=&quot;typeset&quot;&gt;&lt;p&gt;What coversheets? Did I get
-      that memo? Was there a memo?&lt;/p&gt;&lt;/div&gt;
-    </formatted_text>
+    <formatted_text>&lt;div class=&quot;typeset&quot;&gt;&lt;p&gt;What coversheets? Did I get that memo? Was there a memo?&lt;/p&gt;&lt;/div&gt;</formatted_text>
     <suggestion>
-      <url>
-        http://initech.uservoice.com/forums/1155-initech/suggestions/7843-reminder-new-coversheets-on-tps-reports
-      </url>
+      <url>http://initech.uservoice.com/forums/1155-initech/suggestions/7843-reminder-new-coversheets-on-tps-reports</url>
       <id type='integer'>7843</id>
       <state>approved</state>
       <title>Reminder - New Coversheets on TPS Reports</title>
-      <text>
-        We're putting new coversheets on all the TPS reports before they go out
-        now. So if you could go ahead and try to remember to do that from now
-        on, that'd be great. All right?
-      </text>
-      <formatted_text>
-        &lt;div class=&quot;typeset&quot;&gt;&lt;p&gt;We're putting new
-        coversheets on all the TPS reports before they go out now. So if you
-        could go ahead and try to remember to do that from now on, that'd be
-        great. All right?&lt;/p&gt;&lt;/div&gt;
-      </formatted_text>
+      <text>We're putting new coversheets on all the TPS reports before they go out now. So if you could go ahead and try to remember to do that from now on, that'd be great. All right?</text>
+      <formatted_text>&lt;div class=&quot;typeset&quot;&gt;&lt;p&gt;We're putting new coversheets on all the TPS reports before they go out now. So if you could go ahead and try to remember to do that from now on, that'd be great. All right?&lt;/p&gt;&lt;/div&gt;</formatted_text>
       <vote_count type='integer'>14</vote_count>
       <comments_count type='integer'>1</comments_count>
       <supporters_count type='integer'>13</supporters_count>
@@ -58,32 +44,21 @@
         <email>Dom.Portwood@initech.com</email>
         <title/>
         <url>http://initech.uservoice.com/users/13562-dom-portwood</url>
-        <avatar_url>
-          https://secure.gravatar.com/avatar/840ea731a276471eb1768edaa608782e?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png
-        </avatar_url>
+        <avatar_url>https://secure.gravatar.com/avatar/840ea731a276471eb1768edaa608782e?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png</avatar_url>
         <karma_score type='integer'>39</karma_score>
         <created_at type='datetime'>2008-06-15T22:52:38Z</created_at>
         <updated_at type='datetime'>2011-11-23T21:30:16Z</updated_at>
       </creator>
       <response>
-        <text>
-          Just to let everyone know - you should have received a memo in your
-          company inbox. If not, please see Peggy in Human Resources.
-        </text>
-        <formatted_text>
-          &lt;div class=&quot;typeset&quot;&gt;&lt;p&gt;Just to let everyone
-          know - you should have received a memo in your company inbox. If not,
-          please see Peggy in Human Resources.&lt;/p&gt;&lt;/div&gt;
-        </formatted_text>
+        <text>Just to let everyone know - you should have received a memo in your company inbox. If not, please see Peggy in Human Resources.</text>
+        <formatted_text>&lt;div class=&quot;typeset&quot;&gt;&lt;p&gt;Just to let everyone know - you should have received a memo in your company inbox. If not, please see Peggy in Human Resources.&lt;/p&gt;&lt;/div&gt;</formatted_text>
         <creator>
           <id type='integer'>13552</id>
           <name>Peter Gibbons</name>
           <email>peter.gibbons@initech.com</email>
           <title/>
           <url>http://initech.uservoice.com/users/13552-peter-gibbons</url>
-          <avatar_url>
-            https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png
-          </avatar_url>
+          <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png</avatar_url>
           <karma_score type='integer'>13</karma_score>
           <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
           <updated_at type='datetime'>2012-07-30T12:47:24Z</updated_at>
@@ -101,9 +76,7 @@
       <email>marcus@addvocate.co</email>
       <title/>
       <url>http://initech.uservoice.com/users/211-marcusnelson</url>
-      <avatar_url>
-        https://secure.gravatar.com/avatar/90006a927d4d7677a7cc3d1a57a88060?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png
-      </avatar_url>
+      <avatar_url>https://secure.gravatar.com/avatar/90006a927d4d7677a7cc3d1a57a88060?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png</avatar_url>
       <karma_score type='integer'>9</karma_score>
       <created_at type='datetime'>2008-02-03T19:28:00Z</created_at>
       <updated_at type='datetime'>2012-07-27T20:40:56Z</updated_at>
