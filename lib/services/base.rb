@@ -2,6 +2,7 @@ require 'active_support/core_ext/hash/conversions'
 
 class Services
   class Base
+
     # The event fired by UserVoice
     attr_reader :event
       
@@ -66,6 +67,10 @@ class Services
     def self.field(type, key, label, options, description)
       @fields ||= []
       @fields << {:type => type, :key => key.to_s, :label => label, :options => options, :description => description}
+    end
+
+    def self.events
+      %w[ new_ticket new_ticket_reply new_suggestion new_comment new_kudo new_article new_forum suggestion_status_update ]
     end
   end
 end

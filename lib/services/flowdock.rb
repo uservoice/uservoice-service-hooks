@@ -1,9 +1,7 @@
-require 'multi_json'
-
 class Services::Flowdock < Services::Base
   name "Flowdock"
   string :token, lambda { _("Flow token") }, lambda { _('Get your flow token at https://www.flowdock.com/account/tokens and select a flow from the dropdown.') }
-  string :tags, lambda { _("Tags") }, lambda { _('Comma separated string, eg. "uservoice, feedback" gets tagged with #uservoice and #feedback in Flowdock.') }
+  string :tags, lambda { _("Tag(s)") }, lambda { _('The tag your events are tagged with in Flowdock. eg. "uservoice" gets tagged with #uservoice. You can use comma-seperated values here for multiple tags.') }
 
   def perform
     return false unless valid_token?
@@ -32,10 +30,9 @@ class Services::Flowdock < Services::Base
   end
 
   def message
-    data = api_hash
     case event
       when 'new_kudo', 'new_ticket', 'new_ticket_reply', 'new_suggestion', 'new_comment', 'new_article', 'new_forum', 'suggestion_status_update'
-        data
+        api_hash
       else
         { 'message' => super }
     end

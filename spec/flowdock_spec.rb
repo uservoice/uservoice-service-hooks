@@ -37,12 +37,11 @@ describe Services::Flowdock do
   end
 
   describe '#perform' do
-    let(:api_xml) { fixture(:kudo) }
     let(:event) { "new_kudo" }
+    let(:api_xml) { fixture(event) }
     let(:token) { 'deadbeef123' }
     let(:tags) { 'uservoice' }
     let(:data) { { 'token' => token, 'tags' => 'uservoice' } }
-    let(:message) { MultiJson.decode() }
     let(:stub_url) { "https://api.flowdock.com:443/uservoice/#{token}.json" }
 
     before { stub_request(:post, stub_url) }
@@ -58,19 +57,10 @@ describe Services::Flowdock do
   describe '#message' do
     subject { Services::Flowdock.new(event, nil, api_xml) }
 
-    {
-      'new_article' => 'article',
-      'new_comment' => 'comment',
-      'new_forum' => 'forum',
-      'new_kudo' => 'kudo',
-      'new_suggestion' => 'suggestion',
-      'new_ticket' => 'ticket',
-      'new_ticket_reply' => 'ticket_message',
-      'suggestion_status_update' => 'suggestion'
-    }.each do |event, _fixture|
+    Services::Base.events.each do |event|
       context event do
         let(:event) { event }
-        let(:api_xml) { fixture(_fixture) }
+        let(:api_xml) { fixture(event) }
         it "should generate a message" do
           subject.message.should == Hash.from_xml(api_xml).values.first
         end
