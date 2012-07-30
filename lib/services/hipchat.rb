@@ -37,7 +37,7 @@ class Services::Hipchat < Services::Base
     when 'new_forum'
       "<b>New forum</b>: <a href='#{data['forum']['url']}'>#{data['forum']['name']}</a> created by #{data['forum']['updated_by']['name']}"
     when 'suggestion_status_update'
-      "<b>New idea status update</b> by #{data['suggestion']['status_changed_by']['name']} on <a href='#{data['suggestion']['url']}'>#{data['suggestion']['title']}</a>"
+      "<b>New idea status update</b> by #{data['audit_status']['user']['name']} on <a href='#{data['audit_status']['suggestion']['url']}'>#{data['audit_status']['suggestion']['title']}</a>"
     else
       super
     end

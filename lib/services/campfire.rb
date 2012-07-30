@@ -36,7 +36,10 @@ class Services::Campfire < Services::Base
     when 'new_forum'
       "New forum: #{data['forum']['name']} created by #{data['forum']['updated_by']['name']} -- #{data['forum']['url']}"
     when 'suggestion_status_update'
-      "Idea status updated: #{data['suggestion']['title']} set to #{data['suggestion']['status']['name']} by #{data['suggestion']['status_changed_by']['name']} -- #{data['suggestion']['url']}"
+      status = data['audit_status']['final_status']
+      status_name = (status && status['name']) || _("none")
+      include_status = data['audit_status']['final_status'] != data['audit_status']['initial_status']
+      "Idea status updated: #{data['audit_status']['suggestion']['title']}#{include_status ? " set to #{status_name}" : ''} by #{data['audit_status']['user']['name']} -- #{data['audit_status']['suggestion']['url']}"
     else
       super
     end

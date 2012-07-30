@@ -8,7 +8,7 @@ describe Services::Campfire do
     let(:token) { 'test-token' }
     let(:room) { '123' }
     let(:data) { {'auth_token' => token, 'room' => room, 'subdomain' => campfire_subdomain} }
-    let(:message) { 'Test Message Sender received Kudos! from Test Kudo Sender on Test subject -- http://test.uservoice.com/admin/tickets/1' }
+    let(:message) { "Peter Gibbons received Kudos! from Milton Waddams on I can't find my stapler -- http://initech.uservoice.com/admin/tickets/22" }
     let(:body) { "<message><type>TextMessage</type><body>#{message}</body></message>" }
     let(:stub_url) { "https://#{token}:X@#{campfire_subdomain}.campfirenow.com:443/room/#{room}/speak.xml" }
 
@@ -28,14 +28,14 @@ describe Services::Campfire do
     context 'new_kudo' do
       let(:model) { :kudo }
       it 'should generate a message' do
-        subject.message.should == "Test Message Sender received Kudos! from Test Kudo Sender on Test subject -- http://test.uservoice.com/admin/tickets/1"
+        subject.message.should == "Peter Gibbons received Kudos! from Milton Waddams on I can't find my stapler -- http://initech.uservoice.com/admin/tickets/22"
       end
     end
 
     context 'new_ticket' do
       let(:model) { :ticket }
       it 'should generate a message' do
-        subject.message.should == "New ticket: Test subject from Test User -- http://test.uservoice.com/admin/tickets/1"
+        subject.message.should == "New ticket: I can't find my stapler from Milton Waddams -- http://initech.uservoice.com/admin/tickets/22"
       end
     end
 
@@ -43,35 +43,35 @@ describe Services::Campfire do
       let(:model) { :ticket_message }
       let(:event) { 'new_ticket_reply' }
       it 'should generate a message' do
-        subject.message.should == "New ticket reply on Test subject from Test User -- http://test.uservoice.com/admin/tickets/1"
+        subject.message.should == "New ticket reply on I can't find my stapler from Milton Waddams -- http://initech.uservoice.com/admin/tickets/22"
       end
     end
 
     context 'new_suggestion' do
       let(:model) { :suggestion }
       it 'should generate a message' do
-        subject.message.should == "New idea: Test suggestion from Test User -- http://test.uservoice.com/forums/739109572-test-forum/suggestions/-test-suggestion"
+        subject.message.should == "New idea: Fax Machine on 2nd Floor is Broken from Michael.Bolton -- http://initech.uservoice.com/forums/1155-initech/suggestions/7839-fax-machine-on-2nd-floor-is-broken"
       end
     end
 
     context 'new_comment' do
       let(:model) { :comment }
       it 'should generate a message' do
-        subject.message.should == "New comment on Test suggestion from Test User -- http://test.uservoice.com/forums/739109572-test-forum/suggestions/-test-suggestion"
+        subject.message.should == "New comment on Reminder - New Coversheets on TPS Reports from @marcusnelson -- http://initech.uservoice.com/forums/1155-initech/suggestions/7843-reminder-new-coversheets-on-tps-reports"
       end
     end
 
     context 'new_article' do
       let(:model) { :article }
       it 'should generate a message' do
-        subject.message.should == "New article: Is this a new article? by Test User -- http://test.uservoice.com/knowledgebase/articles/-is-this-a-new-article-"
+        subject.message.should == "New article: Proper TPS Cover Report Usage by Peter Gibbons -- http://initech.uservoice.com/knowledgebase/articles/98962-proper-tps-cover-report-usage"
       end
     end
 
     context 'new_forum' do
       let(:model) { :forum }
       it 'should generate a message' do
-        subject.message.should == "New forum: Test forum created by Test User -- http://test.uservoice.com/forums/-test-forum"
+        subject.message.should == "New forum: Efficiency Improvements created by Peter Gibbons -- http://initech.uservoice.com/forums/171032-efficiency-improvements"
       end
     end
 
@@ -79,7 +79,7 @@ describe Services::Campfire do
       let(:model) { :suggestion }
       let(:event) { 'suggestion_status_update' }
       it 'should generate a message' do
-        subject.message.should == "Idea status updated: Test suggestion set to planned by Test User -- http://test.uservoice.com/forums/739109572-test-forum/suggestions/-test-suggestion"
+        subject.message.should == "Idea status updated: Hawaiian Shirt Day set to planned by Peter Gibbons -- http://initech.uservoice.com/forums/1155-initech/suggestions/7842-hawaiian-shirt-day"
       end
     end
   end
