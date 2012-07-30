@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe Services::Campfire do
   describe '#perform' do
-    let(:api_xml) { fixture(:kudo) }
     let(:event) { "new_kudo" }
+    let(:api_xml) { fixture(event) }
     let(:campfire_subdomain) { 'test' }
     let(:token) { 'test-token' }
     let(:room) { '123' }
@@ -22,7 +22,7 @@ describe Services::Campfire do
 
   describe '#message' do
     let(:event) { "new_#{model}" }
-    let(:api_xml) { fixture(model) }
+    let(:api_xml) { fixture(event) }
     subject { Services::Campfire.new(event, nil, api_xml) }
 
     context 'new_kudo' do

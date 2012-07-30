@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe Services::Hipchat do
   describe '#perform' do
-    let(:api_xml) { fixture(:kudo) }
     let(:event) { "new_kudo" }
+    let(:api_xml) { fixture(event) }
 
     before { stub_request(:post, 'https://api.hipchat.com:443/v1/rooms/message') }
 
@@ -15,7 +15,7 @@ describe Services::Hipchat do
 
   describe '#message' do
     let(:event) { "new_#{model}" }
-    let(:api_xml) { fixture(model) }
+    let(:api_xml) { fixture(event) }
     subject { Services::Hipchat.new(event, nil, api_xml) }
 
     context 'new_kudo' do
