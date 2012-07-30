@@ -1,6 +1,7 @@
 require 'webmock/rspec'
 require 'services/base'
 require 'services/campfire'
+require 'services/flowdock'
 require 'services/hipchat'
 
 RSpec.configure do |config|
