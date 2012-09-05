@@ -7,6 +7,7 @@ class Services::Netsuite < Services::Base
   string   :email,  lambda { _("Email") }, lambda { _('Email for the Web Services user') }
   password :password,  lambda { _("Password") }, lambda { _('Password for the Web Services user') }
   string   :role,  lambda { _("Role") }, lambda { _('Optional: Role ID to use for the Web Services user') }
+  string   :company_id,  lambda { _("Company ID") }, lambda { _('Optional: Company ID to use if no matching contact found. If not provided, create new company.') }
  
   def perform
     return false if data['account_id'].blank?
@@ -64,25 +65,20 @@ class Services::Netsuite < Services::Base
       }
     }
 
-    # Get 'Web' origin ID
-    response = client.request :get_select_value do
-      soap.input      = [:wsdl, :getSelectValue]
-      soap.namespaces = namespaces
-      soap.header     = header
-      soap.body       = {
-        'wsdl:fieldDescription' => { 'core:recordType' => 'supportCase', 'core:field' => 'origin' },
-        'wsdl:pageIndex'        => 1
-      }
-    end
-
-    origins = response.to_hash[:get_select_value_response][:get_select_value_result][:base_ref_list][:base_ref]
-    web_origin = origins.find{|origin| origin[:name] == 'Web'}
-
-    # Include contact info in description
     if fields['firstName'] && fields['lastName']
-      fields['incomingMessage'] = ['Name:', fields['firstName'], fields['lastName']].join(' ') + "\n" + fields['incomingMessage']
-      # TODO: find existing contact or create new one
+      company_id = nil
+      
+      # Include contact info in description
+      fields['incomingMessage'] = ['Name:', fields['firstName'], fields['lastName']].join(' ') + "\n" + fields['incomingMessage'].to_s
+
+      # TODO: Find existing contact, set company_id if found
+
+      if !company_id && !fields['company_id']
+        # TODO: Create new contact if no placeholder company provided, set company_id
+      end
     end
+
+    company_id ||= fields['company_id']
 
     client.request :add do
       soap.input      = [:wsdl, :add]
@@ -93,10 +89,16 @@ class Services::Netsuite < Services::Base
           'lists:title'            => fields['title'],
           'lists:incomingMessage'  => fields['incomingMessage'],
           'lists:email'            => fields['email'],
-          'lists:origin'           => {'core:name' => 'Web'},
-          :attributes!             => {'lists:origin' =>  {'internalId' => web_origin[:@internal_id]}}
+          'lists:customForm'       => "",
+          'lists:company'          => "",
+          :attributes!             => {
+            'lists:customForm' => {'internalId' => -100},
+            'lists:company'    => {'internalId' => company_id.to_i}
+          }
         },
-        :attributes! =>  {'wsdl:record' => {'xsi:type' => 'lists:SupportCase'}}
+        :attributes! =>  {
+          'wsdl:record' => {'xsi:type' => 'lists:SupportCase'}
+        }
       }
     end
   end

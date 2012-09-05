@@ -30,7 +30,8 @@ FIELDS = {
   "incomingMessage" => "http://test.uservoice.com/admin/tickets/1\n\nTest message",
   "firstName"       => 'Test',
   "lastName"        => 'User',
-  "email"           => 'test@example.com'
+  "email"           => 'test@example.com',
+  "company_id"      => '330216'
 }
 
 print "Sending SOAP request..."
