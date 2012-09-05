@@ -49,11 +49,19 @@ class Services::Netsuite < Services::Base
       'core:password' => data['password']
     }
 
-    passport['core:role'] = { 'core:internalId' => data['role'] } if data['role']
+    if data['role']
+      passport.merge!(
+        'core:role' => {},
+        :attributes! => {'core:role' => {'internalId' => data['role']}}
+      )
+    end
 
     header = {
       'wsdl:passport'    => passport,
-      'wsdl:preferences' => { 'wsdl:warningAsError' => false }
+      'wsdl:preferences' => {
+        'wsdl:disableMandatoryCustomFieldValidation' => true,
+        'wsdl:ignoreReadOnlyFields' => true
+      }
     }
 
     # Get 'Web' origin ID
@@ -83,10 +91,10 @@ class Services::Netsuite < Services::Base
       soap.body       = {
         'wsdl:record' => {
           'lists:title'            => fields['title'],
-          'lists:incomingMessage' => fields['incomingMessage'],
+          'lists:incomingMessage'  => fields['incomingMessage'],
           'lists:email'            => fields['email'],
-          'lists:origin'           => {'core:name' => 'Web', 'core:internalId' => web_origin[:@internal_id]},
-          :attributes!             => {'lists:origin' =>  {'xsi:type' => 'core:RecordRef'}}
+          'lists:origin'           => {'core:name' => 'Web'},
+          :attributes!             => {'lists:origin' =>  {'internalId' => web_origin[:@internal_id]}}
         },
         :attributes! =>  {'wsdl:record' => {'xsi:type' => 'lists:SupportCase'}}
       }
