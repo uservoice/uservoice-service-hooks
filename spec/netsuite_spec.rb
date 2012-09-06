@@ -4,23 +4,15 @@ describe Services::Netsuite do
   describe '#perform' do
     let(:api_xml)       { fixture(:ticket) }
     let(:event)         { "new_ticket" }
-    let(:account)       { 'account' }
-    let(:email)         { 'test@example.com' }
-    let(:password)      { 'password' }
-    let(:external_url)  { 'https://example.com/case' }
   
     let(:data) {
-      {'account_id' => account, 'email' => email, 'password' => password, 'role' => @role}
-    }
-
-    let(:body) {
-        { "title"           => 'Test subject',
-          "incomingmessage" => "http://test.uservoice.com/admin/tickets/1\n\nTest message",
-          "firstname"       => 'Test',
-          "lastname"        => 'User',
-          "email"           => 'test@example.com',
-          "customfields"    => nil
-        }.to_json
+      {
+        'account_id'  => 'account',
+        'email'       => 'test@example.com',
+        'password'    => 'password',
+        'role'        => @role,
+        'company_id'  => '123'
+      }
     }
 
     let(:body) {
@@ -29,9 +21,11 @@ describe Services::Netsuite do
           'lists:title'            => 'Test subject',
           'lists:incomingMessage'  => "Name: Test User\nhttp://test.uservoice.com/admin/tickets/1\n\nTest message",
           'lists:email'            => 'test@example.com',
-          'lists:origin'           => {'core:name' => 'Web', 'core:internalId' => '-5'},
+          'lists:customForm'       => "",
+          'lists:company'          => "",
           :attributes!             => {
-            "lists:origin" => {"xsi:type" => "core:RecordRef"}
+            'lists:customForm' => {'internalId' => -100},
+            'lists:company'    => {'internalId' => 123}
           }
         },
         :attributes! => {
@@ -42,28 +36,24 @@ describe Services::Netsuite do
 
     before do
       Savon.config.hooks.define(:spec_test, :soap_request) do |_, request|
-        action = request.soap.input[1]
-
-        case action
-        when :getSelectValue
-          HTTPI::Response.new(200, {}, File.read('spec/fixtures/netsuite/origins.xml'))
-        when :add
-          actual_body = request.soap.body
-          raise "expected #{body.inspect} to be sent, got: #{actual_body.inspect}" unless actual_body == body
-          HTTPI::Response.new(200, {}, {})
-        else
-          raise "Unexpected action: #{action.inspect}"
-        end
+        @action = request.soap.input[1]
+        raise "Unexpected action" unless @action == :add
+        @actual_body = request.soap.body
+        HTTPI::Response.new(200, {}, {})
       end
     end
 
     it 'should post to Netsuite' do
       @role = 1
       Services::Netsuite.new(event, data, api_xml).perform
+      @action.should == :add
+      @actual_body.inspect.should == body.inspect
     end
 
     it 'should post to Netsuite with no role' do
       Services::Netsuite.new(event, data, api_xml).perform
+      @action.should == :add
+      @actual_body.inspect.should == body.inspect
     end
   end
 end
