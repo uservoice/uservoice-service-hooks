@@ -27,6 +27,8 @@ class Services::Campfire < Services::Base
       "New ticket: #{data['ticket']['subject']} from #{data['ticket']['created_by']['name']} -- #{data['ticket']['url']}"
     when 'new_ticket_reply'
       "New ticket reply on #{data['ticket']['subject']} from #{data['message']['sender']['name']} -- #{data['ticket']['url']}"
+    when 'new_ticket_admin_reply'
+      "New agent reply on #{data['ticket']['subject']} from #{data['message']['sender']['name']} -- #{data['ticket']['url']}"
     when 'new_suggestion'
       "New idea: #{data['suggestion']['title']} from #{data['suggestion']['creator']['name']} -- #{data['suggestion']['url']}"
     when 'new_comment'

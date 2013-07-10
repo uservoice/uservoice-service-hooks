@@ -26,7 +26,7 @@ class Services::Hipchat < Services::Base
       "#{data['kudo']['message']['sender']['name']} received <b>Kudos</b>! from #{data['kudo']['sender']['name']} on <a href='#{data['kudo']['ticket']['url']}'>#{data['kudo']['ticket']['subject']}</a>"
     when 'new_ticket'
       "<b>New ticket</b> from #{data['ticket']['created_by']['name']}: <a href='#{data['ticket']['url']}'>#{data['ticket']['subject']}</a>"
-    when 'new_ticket_reply'
+    when 'new_ticket_reply', 'new_ticket_admin_reply'
       "<b>New ticket reply</b> from #{data['message']['sender']['name']} on <a href='#{data['ticket']['url']}'>#{data['ticket']['subject']}</a>"
     when 'new_suggestion'
       "<b>New idea</b> by #{data['suggestion']['creator']['name']}: <a href='#{data['suggestion']['url']}'>#{data['suggestion']['title']}</a>"

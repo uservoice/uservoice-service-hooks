@@ -6,23 +6,24 @@ class Services::Flowdock < Services::Base
   def perform
     return false unless valid_token?
 
-    request = Net::HTTP::Post.new("/uservoice/#{data['token']}.json")
+    request = Net::HTTP::Post.new("/uservoice/#{data['token'].strip}.json")
     request.set_form_data('data' => message_data, 'event' => event)
 
     http = Net::HTTP.new("api.flowdock.com", 443)
     http.use_ssl = true
     http.verify_mode = OpenSSL::SSL::VERIFY_NONE
     response = http.request(request)
+
     return response.is_a?(Net::HTTPSuccess)
   end
 
   def message_data
     tags = extract_tags(data['tags']) || []
-    MultiJson.encode(message.merge('tags' => tags))
+    message.merge('tags' => tags).to_json
   end
 
   def valid_token?
-    !!(data['token'] =~ /\A[a-z0-9]+\z/)
+    !!(data['token'].strip =~ /\A[a-z0-9]+\z/)
   end
 
   def extract_tags(str)
@@ -31,11 +32,10 @@ class Services::Flowdock < Services::Base
 
   def message
     case event
-      when 'new_kudo', 'new_ticket', 'new_ticket_reply', 'new_suggestion', 'new_comment', 'new_article', 'new_forum', 'suggestion_status_update'
+      when 'new_kudo', 'new_ticket', 'new_ticket_reply', 'new_ticket_admin_reply', 'new_suggestion', 'new_comment', 'new_article', 'new_forum', 'suggestion_status_update'
         api_hash
       else
         { 'message' => super }
     end
   end
-
 end
