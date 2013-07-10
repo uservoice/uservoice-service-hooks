@@ -49,28 +49,36 @@ class Services
       @name = name
     end
 
+    def self.events_allowed(events)
+      @events_allowed = events
+    end
+
     # Declare a text field parameter (label and description both take a lambda for localization, if appropriate)
-    def self.string(key, label, description="")
-      field(:string, key, label, [], description)
+    def self.string(key, label, description="", hidden=false)
+      field(:string, key, label, [], description, hidden)
+    end
+
+    def self.password(key, label, description="", hidden=false)
+      field(:password, key, label, [], description, hidden)
     end
 
     # Declare a select parameter (label and description both take a lambda for localization, if appropriate)
-    def self.option(key, label, options, description="")
-      field(:select, key, label, options, description)
+    def self.option(key, label, options, description="", hidden=false)
+      field(:select, key, label, options, description, hidden)
     end
 
     # Declare a checkbox parameter (label and description both take a lambda for localization, if appropriate)
-    def self.boolean(key, label, description="")
-      field(:checkbox, key, label, [], description)
+    def self.boolean(key, label, description="", hidden=false)
+      field(:checkbox, key, label, [], description, hidden)
     end
 
-    def self.field(type, key, label, options, description)
+    def self.field(type, key, label, options, description, hidden=false)
       @fields ||= []
-      @fields << {:type => type, :key => key.to_s, :label => label, :options => options, :description => description}
+      @fields << {:type => type, :key => key.to_s, :label => label, :options => options, :description => description, :hidden => hidden}
     end
 
     def self.events
-      %w[ new_ticket new_ticket_reply new_suggestion new_comment new_kudo new_article new_forum suggestion_status_update ]
+      %w[ new_ticket new_ticket_reply new_ticket_admin_reply new_suggestion new_comment new_kudo new_article new_forum suggestion_status_update ]
     end
   end
 end

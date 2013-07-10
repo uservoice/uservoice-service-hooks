@@ -3,8 +3,9 @@ require 'services/base'
 require 'services/campfire'
 require 'services/flowdock'
 require 'services/hipchat'
-
-require 'multi_json'
+require 'services/yammer'
+require 'services/netsuite'
+require 'json'
 
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true

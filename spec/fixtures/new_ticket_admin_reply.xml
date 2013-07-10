@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<response>
+  <ticket>
+    <id type='integer'>2743355</id>
+    <ticket_number type='integer'>22</ticket_number>
+    <subject>I can't find my stapler</subject>
+    <state>closed</state>
+    <url>http://initech.uservoice.com/admin/tickets/22</url>
+  </ticket>
+  <message>
+    <id type='integer'>5630124</id>
+    <body>I told Bill that if they move my desk one more time, then, then I'm, I'm quitting, I'm going to quit. And, and I told Don too, because they've moved my desk four times already this year, and I used to be over by the window, and I could see the squirrels, and they were married, but then, they switched from the Swingline to the Boston stapler, but I kept my Swingline stapler because it didn't bind up as much, and I kept the staples for the Swingline stapler and it's not okay because if they take my stapler then I'll set the building on fire. </body>
+    <is_admin_response type='boolean'>false</is_admin_response>
+    <sender>
+      <id type='integer'>31147347</id>
+      <name>Milton Waddams</name>
+      <email>milton.waddams.basement@initech.com</email>
+      <title/>
+      <url>http://initech.uservoice.com/users/31147347-milton-waddams</url>
+      <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png</avatar_url>
+      <karma_score type='integer'>0</karma_score>
+      <created_at type='datetime'>2012-07-30T14:04:07Z</created_at>
+      <updated_at type='datetime'>2012-07-30T14:13:27Z</updated_at>
+    </sender>
+    <attachments type='array'> </attachments>
+    <created_at type='datetime'>2012-07-30T14:09:15Z</created_at>
+    <updated_at type='datetime'>2012-07-30T14:09:15Z</updated_at>
+  </message>
+</response>

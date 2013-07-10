@@ -14,9 +14,9 @@ describe Services::Flowdock do
       subject.valid_token?.should == false
     end
 
-    it 'should not be valid with a new line' do
+    it 'should strip an extra line from token and be valid' do
       @data = { 'token' => "deadbeef123\n" }
-      subject.valid_token?.should == false
+      subject.valid_token?.should be_true
     end
   end
 
