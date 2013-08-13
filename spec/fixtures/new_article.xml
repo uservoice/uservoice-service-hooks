@@ -3,21 +3,25 @@
   <article>
     <url>http://initech.uservoice.com/knowledgebase/articles/98962-proper-tps-cover-report-usage</url>
     <id type='integer'>98962</id>
-    <question>Proper TPS Cover Report Usage</question>
-    <answer_html>&lt;p&gt;In this document I am going to walk you though the TPS Cover Report generation and usage....&lt;/p&gt;</answer_html>
-    <uses type='integer'>0</uses>
+    <title>Proper TPS Cover Report Usage</title>
+    <text>In this document I am going to walk you though the TPS Cover Report generation and usage....</text>
+    <formatted_text>&lt;p&gt;In this document I am going to walk you though the TPS Cover Report generation and usage....&lt;/p&gt;</formatted_text>
+    <uses type='integer'>2</uses>
     <instant_answers type='integer'>0</instant_answers>
+    <published type='boolean'>true</published>
     <updated_by>
-      <id type='integer'>13552</id>
+      <id type='integer'>7363</id>
       <name>Peter Gibbons</name>
       <email>peter.gibbons@initech.com</email>
       <title/>
-      <url>http://initech.uservoice.com/users/13552-peter-gibbons</url>
+      <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
       <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png</avatar_url>
       <karma_score type='integer'>13</karma_score>
       <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-      <updated_at type='datetime'>2012-07-30T12:47:24Z</updated_at>
+      <updated_at type='datetime'>2013-03-25T14:29:46Z</updated_at>
     </updated_by>
     <topic nil='true'/>
+    <question>Proper TPS Cover Report Usage</question>
+    <answer_html>&lt;p&gt;In this document I am going to walk you though the TPS Cover Report generation and usage....&lt;/p&gt;</answer_html>
   </article>
 </response>

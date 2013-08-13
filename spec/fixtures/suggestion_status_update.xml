@@ -9,16 +9,21 @@
       <title>Hawaiian Shirt Day</title>
       <text>I think this would be a great idea for morale.</text>
       <formatted_text>&lt;div class=&quot;typeset&quot;&gt;&lt;p&gt;I think this would be a great idea for morale.&lt;/p&gt;&lt;/div&gt;</formatted_text>
-      <vote_count type='integer'>6</vote_count>
+      <referrer/>
+      <vote_count type='integer'>7</vote_count>
+      <subscriber_count type='integer'>277</subscriber_count>
       <comments_count type='integer'>0</comments_count>
-      <supporters_count type='integer'>7</supporters_count>
+      <supporters_count type='integer'>8</supporters_count>
       <topic>
         <id type='integer'>1155</id>
         <prompt>I suggest you...</prompt>
         <example>Enter your idea</example>
         <votes_allowed type='integer'>10</votes_allowed>
-        <suggestions_count type='integer'>122</suggestions_count>
-        <open_suggestions_count type='integer'>5</open_suggestions_count>
+        <suggestions_count type='integer'>123</suggestions_count>
+        <open_suggestions_count type='integer'>6</open_suggestions_count>
+        <closed type='boolean'>false</closed>
+        <anonymous_access type='boolean'>true</anonymous_access>
+        <unlimited_votes type='boolean'>false</unlimited_votes>
         <closed_at type='datetime'/>
         <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
         <updated_at type='datetime'>2011-03-11T06:31:47Z</updated_at>
@@ -36,56 +41,57 @@
         <key>planned</key>
       </status>
       <status_changed_by>
-        <id type='integer'>13552</id>
+        <id type='integer'>7363</id>
         <name>Peter Gibbons</name>
         <email>peter.gibbons@initech.com</email>
         <title/>
-        <url>http://initech.uservoice.com/users/13552-peter-gibbons</url>
+        <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
         <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png</avatar_url>
         <karma_score type='integer'>13</karma_score>
         <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-        <updated_at type='datetime'>2012-07-30T12:47:24Z</updated_at>
+        <updated_at type='datetime'>2013-03-25T14:29:46Z</updated_at>
       </status_changed_by>
       <creator>
-        <id type='integer'>13561</id>
+        <id type='integer'>7324</id>
         <name>billlumbergh</name>
         <email>Bill.Lumbergh@initech.com</email>
         <title/>
-        <url>http://initech.uservoice.com/users/13561-billlumbergh</url>
+        <url>http://initech.uservoice.com/users/7324-billlumbergh</url>
         <avatar_url>https://secure.gravatar.com/avatar/b1fa866cd2c9f4e191305b42199631ed?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png</avatar_url>
         <karma_score type='integer'>110</karma_score>
         <created_at type='datetime'>2008-06-15T22:48:07Z</created_at>
-        <updated_at type='datetime'>2012-07-27T21:00:40Z</updated_at>
+        <updated_at type='datetime'>2012-09-21T13:00:39Z</updated_at>
       </creator>
       <response>
         <text>So, you know, if you want to, go ahead and wear a Hawaiian shirt and jeans.</text>
         <formatted_text>&lt;div class=&quot;typeset&quot;&gt;&lt;p&gt;So, you know, if you want to, go ahead and wear a Hawaiian shirt and jeans.&lt;/p&gt;&lt;/div&gt;</formatted_text>
+        <created_at type='datetime'>2012-07-27T20:39:00Z</created_at>
         <creator>
-          <id type='integer'>13552</id>
+          <id type='integer'>7363</id>
           <name>Peter Gibbons</name>
           <email>peter.gibbons@initech.com</email>
           <title/>
-          <url>http://initech.uservoice.com/users/13552-peter-gibbons</url>
+          <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
           <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png</avatar_url>
           <karma_score type='integer'>13</karma_score>
           <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-          <updated_at type='datetime'>2012-07-30T12:47:24Z</updated_at>
+          <updated_at type='datetime'>2013-03-25T14:29:46Z</updated_at>
         </creator>
       </response>
       <attachments type='array'> </attachments>
       <created_at type='datetime'>2008-06-15T22:48:22Z</created_at>
-      <updated_at type='datetime'>2012-07-27T20:39:00Z</updated_at>
+      <updated_at type='datetime'>2012-09-21T12:46:07Z</updated_at>
     </suggestion>
     <user>
-      <id type='integer'>13552</id>
+      <id type='integer'>7363</id>
       <name>Peter Gibbons</name>
       <email>peter.gibbons@initech.com</email>
       <title/>
-      <url>http://initech.uservoice.com/users/13552-peter-gibbons</url>
+      <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
       <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png</avatar_url>
       <karma_score type='integer'>13</karma_score>
       <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-      <updated_at type='datetime'>2012-07-30T12:47:24Z</updated_at>
+      <updated_at type='datetime'>2013-03-25T14:29:46Z</updated_at>
     </user>
     <initial_status nil='true'/>
     <final_status>
