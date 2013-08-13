@@ -13,6 +13,6 @@ RSpec.configure do |config|
   config.filter_run :focus
 
   def fixture(name)
-    File.read("spec/fixtures/#{name}.xml")
+    File.read("spec/fixtures/xml/#{name}.xml")
   end
 end

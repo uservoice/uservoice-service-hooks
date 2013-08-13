@@ -1,0 +1,107 @@
+{
+  "audit_status": {
+    "id": 852059,
+    "suggestion": {
+      "url": "http://initech.uservoice.com/forums/1155-initech/suggestions/7842-hawaiian-shirt-day",
+      "id": 7842,
+      "state": "approved",
+      "title": "Hawaiian Shirt Day",
+      "text": "I think this would be a great idea for morale.",
+      "formatted_text": "<div class=\"typeset\"><p>I think this would be a great idea for morale.</p></div>",
+      "referrer": null,
+      "vote_count": 7,
+      "subscriber_count": 277,
+      "comments_count": 0,
+      "supporters_count": 8,
+      "topic": {
+        "id": 1155,
+        "prompt": "I suggest you...",
+        "example": "Enter your idea",
+        "votes_allowed": 10,
+        "suggestions_count": 123,
+        "open_suggestions_count": 6,
+        "closed": false,
+        "anonymous_access": true,
+        "unlimited_votes": false,
+        "closed_at": null,
+        "created_at": "2008/06/15 21:43:24 +0000",
+        "updated_at": "2011/03/11 06:31:47 +0000",
+        "forum": {
+          "id": "1155",
+          "name": "Initech"
+        }
+      },
+      "category": null,
+      "closed_at": null,
+      "status": {
+        "id": 7256,
+        "name": "planned",
+        "hex_color": "#F0BA00",
+        "key": "planned"
+      },
+      "status_changed_by": {
+        "id": 7363,
+        "name": "Peter Gibbons",
+        "email": "peter.gibbons@initech.com",
+        "title": null,
+        "url": "http://initech.uservoice.com/users/7363-peter-gibbons",
+        "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+        "karma_score": 13,
+        "created_at": "2008/06/15 21:43:24 +0000",
+        "updated_at": "2013/03/25 14:29:46 +0000"
+      },
+      "creator": {
+        "id": 7324,
+        "name": "billlumbergh",
+        "email": "Bill.Lumbergh@initech.com",
+        "title": null,
+        "url": "http://initech.uservoice.com/users/7324-billlumbergh",
+        "avatar_url": "https://secure.gravatar.com/avatar/b1fa866cd2c9f4e191305b42199631ed?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+        "karma_score": 110,
+        "created_at": "2008/06/15 22:48:07 +0000",
+        "updated_at": "2012/09/21 13:00:39 +0000"
+      },
+      "response": {
+        "text": "So, you know, if you want to, go ahead and wear a Hawaiian shirt and jeans.",
+        "formatted_text": "<div class=\"typeset\"><p>So, you know, if you want to, go ahead and wear a Hawaiian shirt and jeans.</p></div>",
+        "created_at": "2012/07/27 20:39:00 +0000",
+        "creator": {
+          "id": 7363,
+          "name": "Peter Gibbons",
+          "email": "peter.gibbons@initech.com",
+          "title": null,
+          "url": "http://initech.uservoice.com/users/7363-peter-gibbons",
+          "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+          "karma_score": 13,
+          "created_at": "2008/06/15 21:43:24 +0000",
+          "updated_at": "2013/03/25 14:29:46 +0000"
+        }
+      },
+      "attachments": [
+
+      ],
+      "created_at": "2008/06/15 22:48:22 +0000",
+      "updated_at": "2012/09/21 12:46:07 +0000"
+    },
+    "user": {
+      "id": 7363,
+      "name": "Peter Gibbons",
+      "email": "peter.gibbons@initech.com",
+      "title": null,
+      "url": "http://initech.uservoice.com/users/7363-peter-gibbons",
+      "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+      "karma_score": 13,
+      "created_at": "2008/06/15 21:43:24 +0000",
+      "updated_at": "2013/03/25 14:29:46 +0000"
+    },
+    "initial_status": null,
+    "final_status": {
+      "id": 7256,
+      "name": "planned",
+      "hex_color": "#F0BA00",
+      "key": "planned"
+    },
+    "created_at": "2012/07/27 20:39:00 +0000",
+    "updated_at": "2012/07/27 20:39:00 +0000"
+  }
+}

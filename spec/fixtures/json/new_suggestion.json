@@ -1,0 +1,58 @@
+{
+  "suggestion": {
+    "url": "http://initech.uservoice.com/forums/1155-initech/suggestions/7839-fax-machine-on-2nd-floor-is-broken",
+    "id": 7839,
+    "state": "approved",
+    "title": "Fax Machine on 2nd Floor is Broken",
+    "text": "The digital readout states, \"PC Load Letter\"\n\nDoes anyone know what that means?",
+    "formatted_text": "<div class=\"typeset\"><p>The digital readout states, &quot;PC Load Letter&quot;</p>\n\n<p>Does anyone know what that means?</p></div>",
+    "referrer": null,
+    "vote_count": 5,
+    "subscriber_count": 385,
+    "comments_count": 0,
+    "supporters_count": 4,
+    "topic": {
+      "id": 1155,
+      "prompt": "I suggest you...",
+      "example": "Enter your idea",
+      "votes_allowed": 10,
+      "suggestions_count": 123,
+      "open_suggestions_count": 6,
+      "closed": false,
+      "anonymous_access": true,
+      "unlimited_votes": false,
+      "closed_at": null,
+      "created_at": "2008/06/15 21:43:24 +0000",
+      "updated_at": "2011/03/11 06:31:47 +0000",
+      "forum": {
+        "id": "1155",
+        "name": "Initech"
+      }
+    },
+    "category": null,
+    "closed_at": "2008/06/15 22:43:02 +0000",
+    "status": {
+      "id": 7256,
+      "name": "planned",
+      "hex_color": "#F0BA00",
+      "key": "planned"
+    },
+    "creator": {
+      "id": 7321,
+      "name": "Michael.Bolton",
+      "email": "michael@initech.com",
+      "title": null,
+      "url": "http://initech.uservoice.com/users/7321-michael-bolton",
+      "avatar_url": "https://secure.gravatar.com/avatar/9f20f8f9df6cf4c8d30f0a232db9ea33?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+      "karma_score": 109,
+      "created_at": "2008/06/15 22:40:21 +0000",
+      "updated_at": "2010/11/08 01:30:10 +0000"
+    },
+    "response": null,
+    "attachments": [
+
+    ],
+    "created_at": "2008/06/15 22:41:24 +0000",
+    "updated_at": "2012/05/31 11:43:00 +0000"
+  }
+}
