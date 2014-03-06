@@ -4,4 +4,4 @@ gem 'rake'
 gem 'rspec'
 gem 'webmock'
 gem 'json'
-gem 'activesupport'
+gem "activesupport", "~> 4.0.3"

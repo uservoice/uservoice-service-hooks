@@ -1,1 +1,1 @@
-rvm use 1.9.3@uservoice-services
+rvm use 2.1.1@uservoice-services --create
