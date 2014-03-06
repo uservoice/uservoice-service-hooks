@@ -4,7 +4,7 @@
     "ticket_number": 22,
     "subject": "I can't find my stapler",
     "state": "closed",
-    "url": "http://initech.uservoice.com/admin/tickets/22",
+    "url": "https://initech.uservoice.com/admin/tickets/22",
     "custom_fields": [
       {
         "key": "Type",
@@ -24,16 +24,19 @@
           "email": "peter.gibbons@initech.com",
           "title": null,
           "url": "http://initech.uservoice.com/users/7363-peter-gibbons",
-          "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
           "karma_score": 13,
-          "created_at": "2008/06/15 21:43:24 +0000",
-          "updated_at": "2013/03/25 14:29:46 +0000"
+          "traits": {
+            "created_at": null
+          },
+          "created_at": "2008-06-15T21:43:24Z",
+          "updated_at": "2013-09-17T16:40:07Z"
         },
         "attachments": [
 
         ],
-        "created_at": "2012/07/30 14:10:53 +0000",
-        "updated_at": "2012/07/30 14:10:53 +0000"
+        "created_at": "2012-07-30T14:10:53Z",
+        "updated_at": "2012-07-30T14:10:53Z"
       },
       {
         "id": 5630124,
@@ -47,16 +50,19 @@
           "email": "milton.waddams.basement@initech.com",
           "title": null,
           "url": "http://initech.uservoice.com/users/27002132-milton-waddams",
-          "avatar_url": "https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
           "karma_score": 0,
-          "created_at": "2012/07/30 14:04:07 +0000",
-          "updated_at": "2012/07/30 14:13:27 +0000"
+          "traits": {
+            "created_at": null
+          },
+          "created_at": "2012-07-30T14:04:07Z",
+          "updated_at": "2012-07-30T14:13:27Z"
         },
         "attachments": [
 
         ],
-        "created_at": "2012/07/30 14:09:15 +0000",
-        "updated_at": "2012/07/30 14:09:15 +0000"
+        "created_at": "2012-07-30T14:09:15Z",
+        "updated_at": "2012-07-30T14:09:15Z"
       },
       {
         "id": 5630055,
@@ -70,16 +76,19 @@
           "email": "peter.gibbons@initech.com",
           "title": null,
           "url": "http://initech.uservoice.com/users/7363-peter-gibbons",
-          "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
           "karma_score": 13,
-          "created_at": "2008/06/15 21:43:24 +0000",
-          "updated_at": "2013/03/25 14:29:46 +0000"
+          "traits": {
+            "created_at": null
+          },
+          "created_at": "2008-06-15T21:43:24Z",
+          "updated_at": "2013-09-17T16:40:07Z"
         },
         "attachments": [
 
         ],
-        "created_at": "2012/07/30 14:06:08 +0000",
-        "updated_at": "2012/07/30 14:06:08 +0000"
+        "created_at": "2012-07-30T14:06:08Z",
+        "updated_at": "2012-07-30T14:06:08Z"
       },
       {
         "id": 5630000,
@@ -93,16 +102,19 @@
           "email": "milton.waddams.basement@initech.com",
           "title": null,
           "url": "http://initech.uservoice.com/users/27002132-milton-waddams",
-          "avatar_url": "https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
           "karma_score": 0,
-          "created_at": "2012/07/30 14:04:07 +0000",
-          "updated_at": "2012/07/30 14:13:27 +0000"
+          "traits": {
+            "created_at": null
+          },
+          "created_at": "2012-07-30T14:04:07Z",
+          "updated_at": "2012-07-30T14:13:27Z"
         },
         "attachments": [
 
         ],
-        "created_at": "2012/07/30 14:04:07 +0000",
-        "updated_at": "2012/07/30 14:04:07 +0000"
+        "created_at": "2012-07-30T14:04:07Z",
+        "updated_at": "2012-07-30T14:04:07Z"
       }
     ],
     "notes": [
@@ -114,10 +126,13 @@
       "email": "peter.gibbons@initech.com",
       "title": null,
       "url": "http://initech.uservoice.com/users/7363-peter-gibbons",
-      "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+      "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
       "karma_score": 13,
-      "created_at": "2008/06/15 21:43:24 +0000",
-      "updated_at": "2013/03/25 14:29:46 +0000"
+      "traits": {
+        "created_at": null
+      },
+      "created_at": "2008-06-15T21:43:24Z",
+      "updated_at": "2013-09-17T16:40:07Z"
     },
     "created_by": {
       "id": 27002132,
@@ -125,10 +140,13 @@
       "email": "milton.waddams.basement@initech.com",
       "title": null,
       "url": "http://initech.uservoice.com/users/27002132-milton-waddams",
-      "avatar_url": "https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+      "avatar_url": "https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
       "karma_score": 0,
-      "created_at": "2012/07/30 14:04:07 +0000",
-      "updated_at": "2012/07/30 14:13:27 +0000"
+      "traits": {
+        "created_at": null
+      },
+      "created_at": "2012-07-30T14:04:07Z",
+      "updated_at": "2012-07-30T14:13:27Z"
     },
     "updated_by": {
       "id": 7363,
@@ -136,10 +154,13 @@
       "email": "peter.gibbons@initech.com",
       "title": null,
       "url": "http://initech.uservoice.com/users/7363-peter-gibbons",
-      "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+      "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
       "karma_score": 13,
-      "created_at": "2008/06/15 21:43:24 +0000",
-      "updated_at": "2013/03/25 14:29:46 +0000"
+      "traits": {
+        "created_at": null
+      },
+      "created_at": "2008-06-15T21:43:24Z",
+      "updated_at": "2013-09-17T16:40:07Z"
     },
     "contact": {
       "id": 27002132,
@@ -147,13 +168,16 @@
       "email": "milton.waddams.basement@initech.com",
       "title": null,
       "url": "http://initech.uservoice.com/users/27002132-milton-waddams",
-      "avatar_url": "https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&amp;default=http://cdn.uservoice.com/images/admin/icons/user_70.png",
+      "avatar_url": "https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
       "karma_score": 0,
-      "created_at": "2012/07/30 14:04:07 +0000",
-      "updated_at": "2012/07/30 14:13:27 +0000"
+      "traits": {
+        "created_at": null
+      },
+      "created_at": "2012-07-30T14:04:07Z",
+      "updated_at": "2012-07-30T14:13:27Z"
     },
-    "last_message_at": "2012/07/30 14:10:53 +0000",
-    "created_at": "2012/07/30 14:04:07 +0000",
-    "updated_at": "2012/07/30 14:10:53 +0000"
+    "last_message_at": "2012-07-30T14:10:53Z",
+    "created_at": "2012-07-30T14:04:07Z",
+    "updated_at": "2012-07-30T14:10:53Z"
   }
 }
