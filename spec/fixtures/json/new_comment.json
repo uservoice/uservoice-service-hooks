@@ -28,8 +28,8 @@
         "anonymous_access": true,
         "unlimited_votes": false,
         "closed_at": null,
-        "created_at": "2008-06-15T21:43:24Z",
-        "updated_at": "2011-03-11T06:31:47Z",
+        "created_at": "2008/06/15 21:43:24 +0000",
+        "updated_at": "2011/03/11 06:31:47 +0000",
         "forum": {
           "id": "1155",
           "name": "Initech"
@@ -54,13 +54,13 @@
         "traits": {
           "created_at": null
         },
-        "created_at": "2008-06-15T22:52:38Z",
-        "updated_at": "2011-11-23T21:30:16Z"
+        "created_at": "2008/06/15 22:52:38 +0000",
+        "updated_at": "2011/11/23 21:30:16 +0000"
       },
       "response": {
         "text": "Just to let everyone know - you should have received a memo in your company inbox.  If not, please see Peggy in Human Resources.",
         "formatted_text": "<div class=\"typeset\"><p>Just to let everyone know - you should have received a memo in your company inbox.  If not, please see Peggy in Human Resources.</p></div>",
-        "created_at": "2008-07-03T21:19:48Z",
+        "created_at": "2008/07/03 21:19:48 +0000",
         "creator": {
           "id": 7363,
           "name": "Peter Gibbons",
@@ -70,17 +70,22 @@
           "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
           "karma_score": 13,
           "traits": {
-            "created_at": null
+            "browser_name": "Chrome",
+            "location_city": "Union City",
+            "location_country": "United States",
+            "location_region": "CA",
+            "os_name": "Mac OS X",
+            "created_at": 1394126617000
           },
-          "created_at": "2008-06-15T21:43:24Z",
-          "updated_at": "2013-09-17T16:40:07Z"
+          "created_at": "2008/06/15 21:43:24 +0000",
+          "updated_at": "2013/09/17 16:40:07 +0000"
         }
       },
       "attachments": [
 
       ],
-      "created_at": "2008-06-15T22:53:07Z",
-      "updated_at": "2014-01-03T06:51:07Z"
+      "created_at": "2008/06/15 22:53:07 +0000",
+      "updated_at": "2014/01/03 06:51:07 +0000"
     },
     "suggestion_id": "7843",
     "forum_id": "1155",
@@ -95,10 +100,10 @@
       "traits": {
         "created_at": null
       },
-      "created_at": "2008-02-03T19:28:00Z",
-      "updated_at": "2012-08-17T20:00:57Z"
+      "created_at": "2008/02/03 19:28:00 +0000",
+      "updated_at": "2012/08/17 20:00:57 +0000"
     },
-    "created_at": "2008-06-15T23:15:07Z",
-    "updated_at": "2008-06-15T23:15:07Z"
+    "created_at": "2008/06/15 23:15:07 +0000",
+    "updated_at": "2008/06/15 23:15:07 +0000"
   }
 }

@@ -18,14 +18,19 @@
       "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
       "karma_score": 13,
       "traits": {
-        "created_at": null
+        "browser_name": "Chrome",
+        "location_city": "Union City",
+        "location_country": "United States",
+        "location_region": "CA",
+        "os_name": "Mac OS X",
+        "created_at": 1394126617000
       },
-      "created_at": "2008-06-15T21:43:24Z",
-      "updated_at": "2013-09-17T16:40:07Z"
+      "created_at": "2008/06/15 21:43:24 +0000",
+      "updated_at": "2013/09/17 16:40:07 +0000"
     },
     "topic": null,
-    "created_at": "2012-07-27T20:34:55Z",
-    "updated_at": "2012-07-27T20:34:57Z",
+    "created_at": "2012/07/27 20:34:55 +0000",
+    "updated_at": "2012/07/27 20:34:57 +0000",
     "question": "Proper TPS Cover Report Usage",
     "answer_html": "<p>In this document I am going to walk you though the TPS Cover Report generation and usage....</p>"
   }

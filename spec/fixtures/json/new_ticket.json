@@ -27,16 +27,21 @@
           "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
           "karma_score": 13,
           "traits": {
-            "created_at": null
+            "browser_name": "Chrome",
+            "location_city": "Union City",
+            "location_country": "United States",
+            "location_region": "CA",
+            "os_name": "Mac OS X",
+            "created_at": 1394126617000
           },
-          "created_at": "2008-06-15T21:43:24Z",
-          "updated_at": "2013-09-17T16:40:07Z"
+          "created_at": "2008/06/15 21:43:24 +0000",
+          "updated_at": "2013/09/17 16:40:07 +0000"
         },
         "attachments": [
 
         ],
-        "created_at": "2012-07-30T14:10:53Z",
-        "updated_at": "2012-07-30T14:10:53Z"
+        "created_at": "2012/07/30 14:10:53 +0000",
+        "updated_at": "2012/07/30 14:10:53 +0000"
       },
       {
         "id": 5630124,
@@ -55,14 +60,14 @@
           "traits": {
             "created_at": null
           },
-          "created_at": "2012-07-30T14:04:07Z",
-          "updated_at": "2012-07-30T14:13:27Z"
+          "created_at": "2012/07/30 14:04:07 +0000",
+          "updated_at": "2012/07/30 14:13:27 +0000"
         },
         "attachments": [
 
         ],
-        "created_at": "2012-07-30T14:09:15Z",
-        "updated_at": "2012-07-30T14:09:15Z"
+        "created_at": "2012/07/30 14:09:15 +0000",
+        "updated_at": "2012/07/30 14:09:15 +0000"
       },
       {
         "id": 5630055,
@@ -79,16 +84,21 @@
           "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
           "karma_score": 13,
           "traits": {
-            "created_at": null
+            "browser_name": "Chrome",
+            "location_city": "Union City",
+            "location_country": "United States",
+            "location_region": "CA",
+            "os_name": "Mac OS X",
+            "created_at": 1394126617000
           },
-          "created_at": "2008-06-15T21:43:24Z",
-          "updated_at": "2013-09-17T16:40:07Z"
+          "created_at": "2008/06/15 21:43:24 +0000",
+          "updated_at": "2013/09/17 16:40:07 +0000"
         },
         "attachments": [
 
         ],
-        "created_at": "2012-07-30T14:06:08Z",
-        "updated_at": "2012-07-30T14:06:08Z"
+        "created_at": "2012/07/30 14:06:08 +0000",
+        "updated_at": "2012/07/30 14:06:08 +0000"
       },
       {
         "id": 5630000,
@@ -107,14 +117,14 @@
           "traits": {
             "created_at": null
           },
-          "created_at": "2012-07-30T14:04:07Z",
-          "updated_at": "2012-07-30T14:13:27Z"
+          "created_at": "2012/07/30 14:04:07 +0000",
+          "updated_at": "2012/07/30 14:13:27 +0000"
         },
         "attachments": [
 
         ],
-        "created_at": "2012-07-30T14:04:07Z",
-        "updated_at": "2012-07-30T14:04:07Z"
+        "created_at": "2012/07/30 14:04:07 +0000",
+        "updated_at": "2012/07/30 14:04:07 +0000"
       }
     ],
     "notes": [
@@ -129,10 +139,15 @@
       "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
       "karma_score": 13,
       "traits": {
-        "created_at": null
+        "browser_name": "Chrome",
+        "location_city": "Union City",
+        "location_country": "United States",
+        "location_region": "CA",
+        "os_name": "Mac OS X",
+        "created_at": 1394126617000
       },
-      "created_at": "2008-06-15T21:43:24Z",
-      "updated_at": "2013-09-17T16:40:07Z"
+      "created_at": "2008/06/15 21:43:24 +0000",
+      "updated_at": "2013/09/17 16:40:07 +0000"
     },
     "created_by": {
       "id": 27002132,
@@ -145,8 +160,8 @@
       "traits": {
         "created_at": null
       },
-      "created_at": "2012-07-30T14:04:07Z",
-      "updated_at": "2012-07-30T14:13:27Z"
+      "created_at": "2012/07/30 14:04:07 +0000",
+      "updated_at": "2012/07/30 14:13:27 +0000"
     },
     "updated_by": {
       "id": 7363,
@@ -157,10 +172,15 @@
       "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
       "karma_score": 13,
       "traits": {
-        "created_at": null
+        "browser_name": "Chrome",
+        "location_city": "Union City",
+        "location_country": "United States",
+        "location_region": "CA",
+        "os_name": "Mac OS X",
+        "created_at": 1394126617000
       },
-      "created_at": "2008-06-15T21:43:24Z",
-      "updated_at": "2013-09-17T16:40:07Z"
+      "created_at": "2008/06/15 21:43:24 +0000",
+      "updated_at": "2013/09/17 16:40:07 +0000"
     },
     "contact": {
       "id": 27002132,
@@ -173,11 +193,11 @@
       "traits": {
         "created_at": null
       },
-      "created_at": "2012-07-30T14:04:07Z",
-      "updated_at": "2012-07-30T14:13:27Z"
+      "created_at": "2012/07/30 14:04:07 +0000",
+      "updated_at": "2012/07/30 14:13:27 +0000"
     },
-    "last_message_at": "2012-07-30T14:10:53Z",
-    "created_at": "2012-07-30T14:04:07Z",
-    "updated_at": "2012-07-30T14:10:53Z"
+    "last_message_at": "2012/07/30 14:10:53 +0000",
+    "created_at": "2012/07/30 14:04:07 +0000",
+    "updated_at": "2012/07/30 14:10:53 +0000"
   }
 }

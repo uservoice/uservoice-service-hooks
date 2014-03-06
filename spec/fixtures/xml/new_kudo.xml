@@ -38,7 +38,12 @@
         <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
         <karma_score type='integer'>13</karma_score>
         <traits>
-          <created_at/>
+          <browser_name>Chrome</browser_name>
+          <location_city>Union City</location_city>
+          <location_country>United States</location_country>
+          <location_region>CA</location_region>
+          <os_name>Mac OS X</os_name>
+          <created_at type='integer'>1394126617000</created_at>
         </traits>
         <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
         <updated_at type='datetime'>2013-09-17T16:40:07Z</updated_at>
