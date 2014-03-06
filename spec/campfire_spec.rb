@@ -8,7 +8,7 @@ describe Services::Campfire do
     let(:token) { 'test-token' }
     let(:room) { '123' }
     let(:data) { {'auth_token' => token, 'room' => room, 'subdomain' => campfire_subdomain} }
-    let(:message) { "Peter Gibbons received Kudos! from Milton Waddams on I can't find my stapler -- http://initech.uservoice.com/admin/tickets/22" }
+    let(:message) { "Peter Gibbons received Kudos! from Milton Waddams on I can't find my stapler -- https://initech.uservoice.com/admin/tickets/22" }
     let(:body) { "<message><type>TextMessage</type><body>#{message}</body></message>" }
     let(:stub_url) { "https://#{token}:X@#{campfire_subdomain}.campfirenow.com:443/room/#{room}/speak.xml" }
 
@@ -28,14 +28,14 @@ describe Services::Campfire do
     context 'new_kudo' do
       let(:model) { :kudo }
       it 'should generate a message' do
-        subject.message.should == "Peter Gibbons received Kudos! from Milton Waddams on I can't find my stapler -- http://initech.uservoice.com/admin/tickets/22"
+        subject.message.should == "Peter Gibbons received Kudos! from Milton Waddams on I can't find my stapler -- https://initech.uservoice.com/admin/tickets/22"
       end
     end
 
     context 'new_ticket' do
       let(:model) { :ticket }
       it 'should generate a message' do
-        subject.message.should == "New ticket: I can't find my stapler from Milton Waddams -- http://initech.uservoice.com/admin/tickets/22"
+        subject.message.should == "New ticket: I can't find my stapler from Milton Waddams -- https://initech.uservoice.com/admin/tickets/22"
       end
     end
 
@@ -43,7 +43,7 @@ describe Services::Campfire do
       let(:model) { :ticket_message }
       let(:event) { 'new_ticket_reply' }
       it 'should generate a message' do
-        subject.message.should == "New ticket reply on I can't find my stapler from Milton Waddams -- http://initech.uservoice.com/admin/tickets/22"
+        subject.message.should == "New ticket reply on I can't find my stapler from Milton Waddams -- https://initech.uservoice.com/admin/tickets/22"
       end
     end
 

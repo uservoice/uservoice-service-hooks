@@ -1,5 +1,5 @@
 class Services::Yammer < Services::Base
-  
+
   # Weird things about Yammer:
   #
   # 1. Yammer's OpenGraph implementation is extremely limited and only gives us a few
@@ -8,12 +8,12 @@ class Services::Yammer < Services::Base
   #    submit an event with an external actor, Yammer invites them to join our network.
   # 3. Every event url needs to be unique or Yammer will use the title from a previous
   #    event with that url.
-  # 
+  #
   # So because of this we have some pretty conviluted event messages. We also need to
   # take the extra step of checking the Yammer API to see if a user exists in our
   # network. And we are appending a unique SHA1 hash to every url.
 
-  name "Yammer"
+  service_name "Yammer"
 
   events_allowed %w[ new_suggestion new_comment new_kudo new_forum suggestion_status_update ]
 
@@ -28,7 +28,8 @@ class Services::Yammer < Services::Base
     payload = message
     payload[:activity][:object][:url] += "?#{url_signature}"
 
-    request = Net::HTTP::Get.new("/api/v1/users/by_email.json?email=#{payload[:activity][:actor]['email']}&access_token=#{data['access_token']}")
+    request = Net::HTTP::Get.new("/api/v1/users/by_email.json?email=#{payload[:activity][:actor]['email']}")
+    request.add_field("Authorization", "Bearer " + data['access_token'])
     http = Net::HTTP.new("www.yammer.com", 443)
     http.use_ssl = true
     response = http.request(request)
@@ -43,7 +44,8 @@ class Services::Yammer < Services::Base
       return true #this is not really a success or an error, but at least our API call worked
     end
 
-    request = Net::HTTP::Post.new("/api/v1/activity.json?access_token=#{data['access_token']}")
+    request = Net::HTTP::Post.new("/api/v1/activity.json")
+    request.add_field("Authorization", "Bearer " + data['access_token'])
     request.body = payload.to_json
     request.content_type = 'application/json'
     http = Net::HTTP.new("www.yammer.com", 443)
@@ -81,7 +83,7 @@ class Services::Yammer < Services::Base
           :actor => { 'name' => self.data[:api_user_name], 'email' => self.data[:api_user_email] },
           :action => "create",
           :object => {
-            :title => "a UserVoice service hook test event", 
+            :title => "a UserVoice service hook test event",
             :object_type => "page",
             :url => "http://uservoice.com/"
           }
@@ -94,7 +96,7 @@ class Services::Yammer < Services::Base
           :actor => data['ticket']['created_by'].slice('name', 'email'),
           :action => "create",
           :object => {
-            :title => "\"#{data['ticket']['subject']}\" ticket", 
+            :title => "\"#{data['ticket']['subject']}\" ticket",
             :object_type => "page",
             :url => data['ticket']['url']
           }
@@ -108,20 +110,20 @@ class Services::Yammer < Services::Base
           :action => "create",
           :object => {
             # this is horrible but Yammer has an extremely limited OpenGraph implementation
-            :title => "a ticket reply to \"#{data['kudo']['ticket']['subject']}\" and received Kudos", 
+            :title => "a ticket reply to \"#{data['kudo']['ticket']['subject']}\" and received Kudos",
             :object_type => "page",
             :url => data['kudo']['ticket']['url']
           }
         }
       }
-    when 'new_ticket_reply', 'new_ticket_admin_reply'
+    when 'new_ticket_reply'
       {
         :activity => {
           :type => 'created',
           :actor => data['message']['sender'].slice('name', 'email'),
           :action => "create",
           :object => {
-            :title => "a ticket reply to \"#{data['ticket']['subject']}\"", 
+            :title => "a ticket reply to \"#{data['ticket']['subject']}\"",
             :object_type => "page",
             :url => data['ticket']['url']
           }
@@ -134,7 +136,7 @@ class Services::Yammer < Services::Base
           :actor => data['suggestion']['creator'].slice('name', 'email'),
           :action => "create",
           :object => {
-            :title => "\"#{data['suggestion']['title']}\" idea", 
+            :title => "\"#{data['suggestion']['title']}\" idea",
             :object_type => "page",
             :url => data['suggestion']['url']
           }
@@ -147,7 +149,7 @@ class Services::Yammer < Services::Base
           :actor => data['comment']['creator'].slice('name', 'email'),
           :action => "create",
           :object => {
-            :title => "a comment on \"#{data['comment']['suggestion']['title']}\"", 
+            :title => "a comment on \"#{data['comment']['suggestion']['title']}\"",
             :object_type => "page",
             :url => data['comment']['suggestion']['url']
           }
@@ -160,7 +162,7 @@ class Services::Yammer < Services::Base
           :actor => data['article']['updated_by'].slice('name', 'email'),
           :action => "create",
           :object => {
-            :title => "\"#{data['article']['question']}\" article", 
+            :title => "\"#{data['article']['question']}\" article",
             :object_type => "page",
             :url => data['article']['url']
           }
@@ -173,7 +175,7 @@ class Services::Yammer < Services::Base
           :actor => data['forum']['updated_by'].slice('name', 'email'),
           :action => "create",
           :object => {
-            :title => "\"#{data['forum']['name']}\" forum", 
+            :title => "\"#{data['forum']['name']}\" forum",
             :object_type => "page",
             :url => data['forum']['url']
           }

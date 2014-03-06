@@ -9,7 +9,7 @@ describe Services::Hipchat do
 
     it 'should post to hipchat' do
       Services::Hipchat.new(event, {'auth_token' => 'auth_token', 'room' => 'room', 'notify' => true}, api_xml).perform
-      a_request(:post, 'https://api.hipchat.com:443/v1/rooms/message').with(:body => {:auth_token => 'auth_token', :room_id => 'room', :from => 'UserVoice', :message =>  "Peter Gibbons received <b>Kudos</b>! from Milton Waddams on <a href='http://initech.uservoice.com/admin/tickets/22'>I can't find my stapler</a>", :notify => '1'}).should have_been_made
+      a_request(:post, 'https://api.hipchat.com:443/v1/rooms/message').with(:body => {:auth_token => 'auth_token', :room_id => 'room', :from => 'UserVoice', :message =>  "Peter Gibbons received <b>Kudos</b>! from Milton Waddams on <a href='https://initech.uservoice.com/admin/tickets/22'>I can't find my stapler</a>", :notify => '1'}).should have_been_made
     end
   end
 
@@ -21,14 +21,14 @@ describe Services::Hipchat do
     context 'new_kudo' do
       let(:model) { :kudo }
       it 'should generate a message' do
-        subject.message.should == "Peter Gibbons received <b>Kudos</b>! from Milton Waddams on <a href='http://initech.uservoice.com/admin/tickets/22'>I can't find my stapler</a>"
+        subject.message.should == "Peter Gibbons received <b>Kudos</b>! from Milton Waddams on <a href='https://initech.uservoice.com/admin/tickets/22'>I can't find my stapler</a>"
       end
     end
 
     context 'new_ticket' do
       let(:model) { :ticket }
       it 'should generate a message' do
-        subject.message.should == "<b>New ticket</b> from Milton Waddams: <a href='http://initech.uservoice.com/admin/tickets/22'>I can't find my stapler</a>"
+        subject.message.should == "<b>New ticket</b> from Milton Waddams: <a href='https://initech.uservoice.com/admin/tickets/22'>I can't find my stapler</a>"
       end
     end
 
@@ -36,7 +36,7 @@ describe Services::Hipchat do
       let(:model) { :ticket_message }
       let(:event) { 'new_ticket_reply' }
       it 'should generate a message' do
-        subject.message.should == "<b>New ticket reply</b> from Milton Waddams on <a href='http://initech.uservoice.com/admin/tickets/22'>I can't find my stapler</a>"
+        subject.message.should == "<b>New ticket reply</b> from Milton Waddams on <a href='https://initech.uservoice.com/admin/tickets/22'>I can't find my stapler</a>"
       end
     end
 

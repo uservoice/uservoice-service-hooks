@@ -1,6 +1,5 @@
 class Services::Netsuite < Services::Base
-  name "Netsuite"
-
+  service_name "Netsuite"
   events_allowed %w[ new_ticket ]
 
   STANDARD_CASE_FORM_ID = -100
@@ -16,7 +15,7 @@ class Services::Netsuite < Services::Base
 
   # this is just here for testing?
   string    :endpoint,  lambda { _("Endpoint URI") }, lambda { _('API endpoint (leave blank for default)') }
- 
+
   def perform
     return false if data[:account_id].blank? ||
                     data[:email].blank?      ||
@@ -122,5 +121,7 @@ class Services::Netsuite < Services::Base
         }
       }
     end
+  rescue Savon::SOAP::Fault => e
+    raise Services::HandledException.new("Problem talking to NetSuite: " + e.to_s)
   end
 end

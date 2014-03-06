@@ -45,7 +45,7 @@ class Services
     end
     
     # Declare the name of this service (takes a lambda for localization, if appropriate)
-    def self.name(name)
+    def self.service_name(name)
       @name = name
     end
 

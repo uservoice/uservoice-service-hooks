@@ -1,5 +1,6 @@
 class Services::Campfire < Services::Base
-  name "Campfire"
+  service_name "Campfire"
+  events_allowed %w[ new_ticket new_ticket_reply new_ticket_admin_reply new_suggestion new_comment new_kudo new_article new_forum suggestion_status_update suggestion_votes_update ]
   string :auth_token, lambda { _("Auth token") }, lambda { _('Find your auth token at https://SUBDOMAIN.campfirenow.com/member/edit.') }
   string :subdomain, lambda { _("Subdomain") }, lambda { _('If your campfire is at https://SUBDOMAIN.campfirenow.com, enter SUBDOMAIN here.') }
   string :room, lambda { _("Room ID") }, lambda { _('If your campfire room is at https://SUBDOMAIN.campfirenow.com/room/1234, enter 1234 here.') }
@@ -42,6 +43,8 @@ class Services::Campfire < Services::Base
       status_name = (status && status['name']) || _("none")
       include_status = data['audit_status']['final_status'] != data['audit_status']['initial_status']
       "Idea status updated: #{data['audit_status']['suggestion']['title']}#{include_status ? " set to #{status_name}" : ''} by #{data['audit_status']['user']['name']} -- #{data['audit_status']['suggestion']['url']}"
+    when 'suggestion_votes_update'
+      "Idea votes changed: #{data['suggestion']['title']} now has #{data['suggestion']['votes_count']} votes -- #{data['suggestion']['url']}"
     else
       super
     end

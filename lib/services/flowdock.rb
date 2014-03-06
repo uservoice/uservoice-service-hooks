@@ -1,5 +1,6 @@
 class Services::Flowdock < Services::Base
-  name "Flowdock"
+  service_name "Flowdock"
+  events_allowed %w[ new_ticket new_ticket_reply new_ticket_admin_reply new_suggestion new_comment new_kudo new_article new_forum suggestion_status_update suggestion_votes_update ]
   string :token, lambda { _("Flow token") }, lambda { _('Get your flow token at https://www.flowdock.com/account/tokens and select a flow from the dropdown.') }
   string :tags, lambda { _("Tag(s)") }, lambda { _('The tag your events are tagged with in Flowdock. eg. "uservoice" gets tagged with #uservoice. You can use comma-seperated values here for multiple tags.') }
 
@@ -11,7 +12,9 @@ class Services::Flowdock < Services::Base
 
     http = Net::HTTP.new("api.flowdock.com", 443)
     http.use_ssl = true
-    http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+    http.ssl_version = 'SSLv3'
+    http.verify_mode = OpenSSL::SSL::VERIFY_PEER
+    http.verify_depth = 5
     response = http.request(request)
 
     return response.is_a?(Net::HTTPSuccess)
@@ -32,7 +35,7 @@ class Services::Flowdock < Services::Base
 
   def message
     case event
-      when 'new_kudo', 'new_ticket', 'new_ticket_reply', 'new_ticket_admin_reply', 'new_suggestion', 'new_comment', 'new_article', 'new_forum', 'suggestion_status_update'
+      when 'new_kudo', 'new_ticket', 'new_ticket_reply', 'new_ticket_admin_reply', 'new_suggestion', 'new_comment', 'new_article', 'new_forum', 'suggestion_status_update', 'suggestion_votes_update'
         api_hash
       else
         { 'message' => super }

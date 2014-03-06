@@ -1,5 +1,6 @@
 class Services::Hipchat < Services::Base
-  name "HipChat"
+  service_name "HipChat"
+  events_allowed %w[ new_ticket new_ticket_reply new_ticket_admin_reply new_suggestion new_comment new_kudo new_article new_forum suggestion_status_update suggestion_votes_update ]
   string :auth_token, lambda { _("Auth token") }, lambda { _('See %{link}') % {:link => '<a href="https://www.hipchat.com/docs/api/auth">https://www.hipchat.com/docs/api/auth</a>'.html_safe} }
   string :room, lambda { _("Room Name") }, lambda { _('You can see a list of your rooms at %{link}') % {:link => '<a href="https://www.hipchat.com/rooms/ids">https://www.hipchat.com/rooms/ids</a>'.html_safe} }
   boolean :notify, lambda { _("Notify") }, lambda { _('Check this to notify everyone in the HipChat room whenever an event is triggered') }
@@ -38,6 +39,8 @@ class Services::Hipchat < Services::Base
       "<b>New forum</b>: <a href='#{data['forum']['url']}'>#{data['forum']['name']}</a> created by #{data['forum']['updated_by']['name']}"
     when 'suggestion_status_update'
       "<b>New idea status update</b> by #{data['audit_status']['user']['name']} on <a href='#{data['audit_status']['suggestion']['url']}'>#{data['audit_status']['suggestion']['title']}</a>"
+    when 'suggestion_votes_update'
+      "<b>New idea votes update</b> on <a href='#{data['suggestion']['url']}'>#{data['suggestion']['title']}</a>: #{data['suggestion']['vote_count']} votes"
     else
       super
     end
