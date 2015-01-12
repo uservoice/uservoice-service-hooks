@@ -5,6 +5,7 @@ require 'services/flowdock'
 require 'services/hipchat'
 require 'services/yammer'
 require 'services/netsuite'
+require 'services/slack'
 require 'json'
 
 RSpec.configure do |config|
