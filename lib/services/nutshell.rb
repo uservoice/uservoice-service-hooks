@@ -11,8 +11,8 @@ class Services::Nutshell < Services::Base
     uri = URI.parse(nut_endpoint)
 
     request = Net::HTTP::Post.new(uri.path)
-    request["Content-Type"] = "application/json"
-    request.body = message
+    request["Content-Type"] = "application/x-www-form-urlencoded"
+    request.set_form_data message
 
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
@@ -32,9 +32,9 @@ class Services::Nutshell < Services::Base
 
   def message
     {
-      'data' => api_hash,
+      'data' => api_hash.to_json,
       'event' => event
-    }.to_json
+    }
   end
 
 end
