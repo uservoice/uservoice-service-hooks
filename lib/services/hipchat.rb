@@ -1,6 +1,6 @@
 class Services::Hipchat < Services::Base
   service_name "HipChat"
-  events_allowed %w[ new_ticket new_ticket_reply new_ticket_admin_reply new_suggestion new_comment new_kudo new_article new_forum suggestion_status_update suggestion_votes_update ]
+  events_allowed %w[ new_ticket new_ticket_reply new_ticket_admin_reply new_suggestion new_comment new_kudo new_article new_forum new_user_story suggestion_status_update suggestion_votes_update ]
   string :auth_token, lambda { _("Auth token") }, lambda { _('See %{link}') % {:link => '<a href="https://www.hipchat.com/docs/api/auth">https://www.hipchat.com/docs/api/auth</a>'.html_safe} }
   string :room, lambda { _("Room Name") }, lambda { _('You can see a list of your rooms at %{link}') % {:link => '<a href="https://www.hipchat.com/rooms/ids">https://www.hipchat.com/rooms/ids</a>'.html_safe} }
   boolean :notify, lambda { _("Notify") }, lambda { _('Check this to notify everyone in the HipChat room whenever an event is triggered') }
@@ -41,9 +41,22 @@ class Services::Hipchat < Services::Base
       "<b>New idea status update</b> by #{data['audit_status']['user']['name']} on <a href='#{data['audit_status']['suggestion']['url']}'>#{data['audit_status']['suggestion']['title']}</a>"
     when 'suggestion_votes_update'
       "<b>New idea votes update</b> on <a href='#{data['suggestion']['url']}'>#{data['suggestion']['title']}</a>: #{data['suggestion']['vote_count']} votes"
+    when 'new_user_story'
+      if data['user_story']['ticket']
+        source = " via ticket ##{data['user_story']['ticket']['ticket_number']}: <a href='#{data['user_story']['ticket']['url']}'>#{data['user_story']['ticket']['subject']}</a>"
+      elsif data['user_story']['source_url'].present?
+        source = " via <a href='#{data['user_story']['source_url']}'>#{data['user_story']['source_url']}</a>"
+      else
+        source = ""
+      end
+      if data['user_story']['user']['email']
+        user = "#{data['user_story']['user']['name']} <#{data['user_story']['user']['email']}>"
+      else
+        user = data['user_story']['user']['name']
+      end
+      "#{user} gave feedback about <a href='#{data['user_story']['suggestion']['url']}'>#{data['user_story']['suggestion']['title']}</a>#{source}"
     else
       super
     end
   end
 end
-

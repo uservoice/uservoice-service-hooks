@@ -1,9 +1,5 @@
-# require 'uri'
-# require 'openssl'
-# require 'net/http'
-
 class Services::Sently < Services::Base
-  name "Sent.ly"
+  service_name "Sent.ly"
   events_allowed %w[ new_ticket_admin_reply ]
 
   def perform

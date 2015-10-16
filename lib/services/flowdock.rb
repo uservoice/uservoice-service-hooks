@@ -12,7 +12,6 @@ class Services::Flowdock < Services::Base
 
     http = Net::HTTP.new("api.flowdock.com", 443)
     http.use_ssl = true
-    http.ssl_version = 'SSLv3'
     http.verify_mode = OpenSSL::SSL::VERIFY_PEER
     http.verify_depth = 5
     response = http.request(request)

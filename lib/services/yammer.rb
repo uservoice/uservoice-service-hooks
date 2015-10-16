@@ -28,20 +28,28 @@ class Services::Yammer < Services::Base
     payload = message
     payload[:activity][:object][:url] += "?#{url_signature}"
 
-    request = Net::HTTP::Get.new("/api/v1/users/by_email.json?email=#{payload[:activity][:actor]['email']}")
+
+    if !payload[:activity][:actor]['email']
+      Rails.logger.info "this user has been deleted" #this goes to normal rails log
+      return true
+    end
+
+    request = Net::HTTP::Get.new("/api/v1/users/by_email.json?email=#{CGI.escape(payload[:activity][:actor]['email'])}")
     request.add_field("Authorization", "Bearer " + data['access_token'])
     http = Net::HTTP.new("www.yammer.com", 443)
     http.use_ssl = true
     response = http.request(request)
     return expire_access_token if response.is_a?(Net::HTTPUnauthorized)
-    users = JSON.parse(response.body)
-    if users && !users.empty? && users[0]['full_name']
-      #use yammer's name for this person
-      payload[:activity][:actor]['name'] = users[0]['full_name']
-    else
-      #oh no this bro is not in our org
+
+    if response.is_a? Net::HTTPNotFound
       Rails.logger.info "this bro is not in our org: #{payload[:activity][:actor]}"
       return true #this is not really a success or an error, but at least our API call worked
+    end
+
+    users = JSON.parse(response.body)
+    if users && users.to_a.first.to_h['full_name']
+      #use yammer's name for this person
+      payload[:activity][:actor]['name'] = users[0]['full_name']
     end
 
     request = Net::HTTP::Post.new("/api/v1/activity.json")
