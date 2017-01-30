@@ -6,31 +6,33 @@
     <text>What coversheets? Did I get that memo? Was there a memo?</text>
     <formatted_text>&lt;div class="typeset"&gt;&lt;p&gt;What coversheets? Did I get that memo? Was there a memo?&lt;/p&gt;&lt;/div&gt;</formatted_text>
     <suggestion>
-      <url>http://initech.uservoice.com/forums/1155-initech/suggestions/7843-reminder-new-coversheets-on-tps-reports</url>
-      <path>/forums/1155-initech/suggestions/7843-reminder-new-coversheets-on-tps-reports</path>
+      <url>http://initech.uservoice.com/forums/1155-initech/suggestions/7843-reminder-new-coversheets-on-tps-reports-dfdf</url>
+      <path>/forums/1155-initech/suggestions/7843-reminder-new-coversheets-on-tps-reports-dfdf</path>
       <id type='integer'>7843</id>
       <state>approved</state>
-      <title>Reminder - New Coversheets on TPS Reports</title>
+      <title>Reminder - New Coversheets on TPS Reports dfdf</title>
       <text>We're putting new coversheets on all the TPS reports before they go out now. So if you could go ahead and try to remember to do that from now on, that'd be great. All right?</text>
-      <formatted_text>&lt;div class="typeset"&gt;&lt;p&gt;We&amp;#39;re putting new coversheets on all the TPS reports before they go out now. So if you could go ahead and try to remember to do that from now on, that&amp;#39;d be great. All right?&lt;/p&gt;&lt;/div&gt;</formatted_text>
+      <formatted_text>&lt;div class="typeset"&gt;&lt;p&gt;We're putting new coversheets on all the TPS reports before they go out now. So if you could go ahead and try to remember to do that from now on, that'd be great. All right?&lt;/p&gt;&lt;/div&gt;</formatted_text>
       <referrer/>
-      <vote_count type='integer'>24</vote_count>
-      <subscriber_count type='integer'>8637</subscriber_count>
-      <comments_count type='integer'>1</comments_count>
-      <supporters_count type='integer'>17</supporters_count>
+      <vote_count type='integer'>31</vote_count>
+      <subscriber_count type='integer'>8644</subscriber_count>
+      <comments_count type='integer'>2</comments_count>
+      <supporters_count type='integer'>8644</supporters_count>
+      <merged_into_suggestion_id type='integer'/>
       <topic>
         <id type='integer'>1155</id>
         <prompt>I suggest you...</prompt>
         <example>Enter your idea</example>
         <votes_allowed type='integer'>10</votes_allowed>
-        <suggestions_count type='integer'>123</suggestions_count>
-        <open_suggestions_count type='integer'>6</open_suggestions_count>
+        <suggestions_count type='integer'>124</suggestions_count>
+        <open_suggestions_count type='integer'>7</open_suggestions_count>
         <closed type='boolean'>false</closed>
         <anonymous_access type='boolean'>true</anonymous_access>
         <unlimited_votes type='boolean'>false</unlimited_votes>
+        <classic_voting>true</classic_voting>
         <closed_at type='datetime'/>
         <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-        <updated_at type='datetime'>2011-03-11T06:31:47Z</updated_at>
+        <updated_at type='datetime'>2015-09-01T15:16:59Z</updated_at>
         <forum>
           <id>1155</id>
           <name>Initech</name>
@@ -44,17 +46,29 @@
         <hex_color>#999999</hex_color>
         <key>under-review</key>
       </status>
+      <audit_statuses>
+        <id type='integer'>448</id>
+        <initial_status nil='true'/>
+        <final_status nil='true'/>
+        <created_at type='datetime'>2008-06-15T23:17:25Z</created_at>
+        <updated_at type='datetime'>2008-06-15T23:17:25Z</updated_at>
+      </audit_statuses>
+      <audit_statuses>
+        <id type='integer'>620</id>
+        <initial_status nil='true'/>
+        <final_status nil='true'/>
+        <created_at type='datetime'>2008-07-03T21:19:48Z</created_at>
+        <updated_at type='datetime'>2008-07-03T21:19:48Z</updated_at>
+      </audit_statuses>
       <creator>
         <id type='integer'>7325</id>
         <name>Dom.Portwood</name>
         <email>Dom.Portwood@initech.com</email>
         <title/>
         <url>http://initech.uservoice.com/users/7325-dom-portwood</url>
-        <avatar_url>https://secure.gravatar.com/avatar/840ea731a276471eb1768edaa608782e?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+        <avatar_url>https://secure.gravatar.com/avatar/840ea731a276471eb1768edaa608782e?size=70</avatar_url>
         <karma_score type='integer'>39</karma_score>
-        <traits>
-          <created_at/>
-        </traits>
+        <traits> </traits>
         <created_at type='datetime'>2008-06-15T22:52:38Z</created_at>
         <updated_at type='datetime'>2011-11-23T21:30:16Z</updated_at>
       </creator>
@@ -68,23 +82,16 @@
           <email>peter.gibbons@initech.com</email>
           <title/>
           <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
-          <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+          <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
           <karma_score type='integer'>13</karma_score>
-          <traits>
-            <browser_name>Chrome</browser_name>
-            <location_city>Union City</location_city>
-            <location_country>United States</location_country>
-            <location_region>CA</location_region>
-            <os_name>Mac OS X</os_name>
-            <created_at type='integer'>1394126617000</created_at>
-          </traits>
+          <traits> </traits>
           <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-          <updated_at type='datetime'>2013-09-17T16:40:07Z</updated_at>
+          <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
         </creator>
       </response>
       <attachments type='array'> </attachments>
       <created_at type='datetime'>2008-06-15T22:53:07Z</created_at>
-      <updated_at type='datetime'>2014-01-03T06:51:07Z</updated_at>
+      <updated_at type='datetime'>2016-01-26T22:15:05Z</updated_at>
     </suggestion>
     <suggestion_id>7843</suggestion_id>
     <forum_id>1155</forum_id>
@@ -94,11 +101,9 @@
       <email>marcus@addvocate.co</email>
       <title/>
       <url>http://initech.uservoice.com/users/7328--marcusnelson</url>
-      <avatar_url>https://secure.gravatar.com/avatar/90006a927d4d7677a7cc3d1a57a88060?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+      <avatar_url>https://secure.gravatar.com/avatar/90006a927d4d7677a7cc3d1a57a88060?size=70</avatar_url>
       <karma_score type='integer'>9</karma_score>
-      <traits>
-        <created_at/>
-      </traits>
+      <traits> </traits>
       <created_at type='datetime'>2008-02-03T19:28:00Z</created_at>
       <updated_at type='datetime'>2012-08-17T20:00:57Z</updated_at>
     </creator>

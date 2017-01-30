@@ -1,6 +1,5 @@
 {
   "audit_status": {
-    "id": 852059,
     "suggestion": {
       "url": "http://initech.uservoice.com/forums/1155-initech/suggestions/7842-hawaiian-shirt-day",
       "path": "/forums/1155-initech/suggestions/7842-hawaiian-shirt-day",
@@ -10,23 +9,25 @@
       "text": "I think this would be a great idea for morale.",
       "formatted_text": "<div class=\"typeset\"><p>I think this would be a great idea for morale.</p></div>",
       "referrer": null,
-      "vote_count": 7,
-      "subscriber_count": 276,
-      "comments_count": 0,
-      "supporters_count": 8,
+      "vote_count": 11,
+      "subscriber_count": 278,
+      "comments_count": 1,
+      "supporters_count": 278,
+      "merged_into_suggestion_id": null,
       "topic": {
         "id": 1155,
         "prompt": "I suggest you...",
         "example": "Enter your idea",
         "votes_allowed": 10,
-        "suggestions_count": 123,
-        "open_suggestions_count": 6,
+        "suggestions_count": 124,
+        "open_suggestions_count": 7,
         "closed": false,
         "anonymous_access": true,
         "unlimited_votes": false,
+        "classic_voting": "true",
         "closed_at": null,
-        "created_at": "2008/06/15 21:43:24 +0000",
-        "updated_at": "2011/03/11 06:31:47 +0000",
+        "created_at": "2008-06-15T21:43:24.000Z",
+        "updated_at": "2015-09-01T15:16:59.000Z",
         "forum": {
           "id": "1155",
           "name": "Initech"
@@ -46,18 +47,23 @@
         "email": "peter.gibbons@initech.com",
         "title": null,
         "url": "http://initech.uservoice.com/users/7363-peter-gibbons",
-        "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
+        "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70",
         "karma_score": 13,
-        "traits": {
-          "browser_name": "Chrome",
-          "location_city": "Union City",
-          "location_country": "United States",
-          "location_region": "CA",
-          "os_name": "Mac OS X",
-          "created_at": 1394126617000
+        "traits": "\n",
+        "created_at": "2008-06-15T21:43:24.000Z",
+        "updated_at": "2016-12-19T13:32:53.000Z"
+      },
+      "audit_statuses": {
+        "id": 550449,
+        "initial_status": null,
+        "final_status": {
+          "id": 7256,
+          "name": "planned",
+          "hex_color": "#F0BA00",
+          "key": "planned"
         },
-        "created_at": "2008/06/15 21:43:24 +0000",
-        "updated_at": "2013/09/17 16:40:07 +0000"
+        "created_at": "2012-07-27T20:39:00.000Z",
+        "updated_at": "2012-07-27T20:39:00.000Z"
       },
       "creator": {
         "id": 7324,
@@ -65,43 +71,34 @@
         "email": "Bill.Lumbergh@initech.com",
         "title": null,
         "url": "http://initech.uservoice.com/users/7324-billlumbergh",
-        "avatar_url": "https://secure.gravatar.com/avatar/b1fa866cd2c9f4e191305b42199631ed?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
-        "karma_score": 110,
-        "traits": {
-          "created_at": null
-        },
-        "created_at": "2008/06/15 22:48:07 +0000",
-        "updated_at": "2012/09/21 13:00:39 +0000"
+        "avatar_url": "https://secure.gravatar.com/avatar/b1fa866cd2c9f4e191305b42199631ed?size=70",
+        "karma_score": 112,
+        "traits": "\n",
+        "created_at": "2008-06-15T22:48:07.000Z",
+        "updated_at": "2015-04-28T02:00:14.000Z"
       },
       "response": {
         "text": "So, you know, if you want to, go ahead and wear a Hawaiian shirt and jeans.",
         "formatted_text": "<div class=\"typeset\"><p>So, you know, if you want to, go ahead and wear a Hawaiian shirt and jeans.</p></div>",
-        "created_at": "2012/07/27 20:39:00 +0000",
+        "created_at": "2012-07-27T20:39:00.000Z",
         "creator": {
           "id": 7363,
           "name": "Peter Gibbons",
           "email": "peter.gibbons@initech.com",
           "title": null,
           "url": "http://initech.uservoice.com/users/7363-peter-gibbons",
-          "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70",
           "karma_score": 13,
-          "traits": {
-            "browser_name": "Chrome",
-            "location_city": "Union City",
-            "location_country": "United States",
-            "location_region": "CA",
-            "os_name": "Mac OS X",
-            "created_at": 1394126617000
-          },
-          "created_at": "2008/06/15 21:43:24 +0000",
-          "updated_at": "2013/09/17 16:40:07 +0000"
+          "traits": "\n",
+          "created_at": "2008-06-15T21:43:24.000Z",
+          "updated_at": "2016-12-19T13:32:53.000Z"
         }
       },
       "attachments": [
 
       ],
-      "created_at": "2008/06/15 22:48:22 +0000",
-      "updated_at": "2012/09/21 12:46:07 +0000"
+      "created_at": "2008-06-15T22:48:22.000Z",
+      "updated_at": "2015-08-26T21:45:03.000Z"
     },
     "user": {
       "id": 7363,
@@ -109,19 +106,13 @@
       "email": "peter.gibbons@initech.com",
       "title": null,
       "url": "http://initech.uservoice.com/users/7363-peter-gibbons",
-      "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
+      "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70",
       "karma_score": 13,
-      "traits": {
-        "browser_name": "Chrome",
-        "location_city": "Union City",
-        "location_country": "United States",
-        "location_region": "CA",
-        "os_name": "Mac OS X",
-        "created_at": 1394126617000
-      },
-      "created_at": "2008/06/15 21:43:24 +0000",
-      "updated_at": "2013/09/17 16:40:07 +0000"
+      "traits": "\n",
+      "created_at": "2008-06-15T21:43:24.000Z",
+      "updated_at": "2016-12-19T13:32:53.000Z"
     },
+    "id": 550449,
     "initial_status": null,
     "final_status": {
       "id": 7256,
@@ -129,7 +120,7 @@
       "hex_color": "#F0BA00",
       "key": "planned"
     },
-    "created_at": "2012/07/27 20:39:00 +0000",
-    "updated_at": "2012/07/27 20:39:00 +0000"
+    "created_at": "2012-07-27T20:39:00.000Z",
+    "updated_at": "2012-07-27T20:39:00.000Z"
   }
 }

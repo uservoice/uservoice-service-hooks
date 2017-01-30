@@ -6,6 +6,7 @@
     <subject>I can't find my stapler</subject>
     <state>closed</state>
     <url>https://initech.uservoice.com/admin/tickets/22</url>
+    <from_email_address>tickets@initech.uservoice.com</from_email_address>
     <custom_fields type='array'>
       <custom_field>
         <key>Type</key>
@@ -19,26 +20,22 @@
         <body>Okay Milton, I found it for you. It's on your desk.</body>
         <plaintext_body>Okay Milton, I found it for you. It's on your desk.</plaintext_body>
         <is_admin_response type='boolean'>true</is_admin_response>
+        <referrer/>
         <sender>
           <id type='integer'>7363</id>
           <name>Peter Gibbons</name>
           <email>peter.gibbons@initech.com</email>
           <title/>
           <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
-          <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+          <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
           <karma_score type='integer'>13</karma_score>
-          <traits>
-            <browser_name>Chrome</browser_name>
-            <location_city>Union City</location_city>
-            <location_country>United States</location_country>
-            <location_region>CA</location_region>
-            <os_name>Mac OS X</os_name>
-            <created_at type='integer'>1394126617000</created_at>
-          </traits>
+          <traits> </traits>
           <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-          <updated_at type='datetime'>2013-09-17T16:40:07Z</updated_at>
+          <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
         </sender>
         <attachments type='array'> </attachments>
+        <ccs type='array'> </ccs>
+        <bccs type='array'> </bccs>
         <created_at type='datetime'>2012-07-30T14:10:53Z</created_at>
         <updated_at type='datetime'>2012-07-30T14:10:53Z</updated_at>
       </message>
@@ -48,21 +45,22 @@
         <body>I told Bill that if they move my desk one more time, then, then I'm, I'm quitting, I'm going to quit. And, and I told Don too, because they've moved my desk four times already this year, and I used to be over by the window, and I could see the squirrels, and they were married, but then, they switched from the Swingline to the Boston stapler, but I kept my Swingline stapler because it didn't bind up as much, and I kept the staples for the Swingline stapler and it's not okay because if they take my stapler then I'll set the building on fire. </body>
         <plaintext_body>I told Bill that if they move my desk one more time, then, then I'm, I'm quitting, I'm going to quit. And, and I told Don too, because they've moved my desk four times already this year, and I used to be over by the window, and I could see the squirrels, and they were married, but then, they switched from the Swingline to the Boston stapler, but I kept my Swingline stapler because it didn't bind up as much, and I kept the staples for the Swingline stapler and it's not okay because if they take my stapler then I'll set the building on fire. </plaintext_body>
         <is_admin_response type='boolean'>false</is_admin_response>
+        <referrer/>
         <sender>
           <id type='integer'>27002132</id>
           <name>Milton Waddams</name>
           <email>milton.waddams.basement@initech.com</email>
           <title/>
           <url>http://initech.uservoice.com/users/27002132-milton-waddams</url>
-          <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+          <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70</avatar_url>
           <karma_score type='integer'>0</karma_score>
-          <traits>
-            <created_at/>
-          </traits>
+          <traits> </traits>
           <created_at type='datetime'>2012-07-30T14:04:07Z</created_at>
           <updated_at type='datetime'>2012-07-30T14:13:27Z</updated_at>
         </sender>
         <attachments type='array'> </attachments>
+        <ccs type='array'> </ccs>
+        <bccs type='array'> </bccs>
         <created_at type='datetime'>2012-07-30T14:09:15Z</created_at>
         <updated_at type='datetime'>2012-07-30T14:09:15Z</updated_at>
       </message>
@@ -72,26 +70,22 @@
         <body>Hi, Milton. I can try to locate your stapler. Do you remember if it was a Swingline or a Boston?</body>
         <plaintext_body>Hi, Milton. I can try to locate your stapler. Do you remember if it was a Swingline or a Boston?</plaintext_body>
         <is_admin_response type='boolean'>true</is_admin_response>
+        <referrer/>
         <sender>
           <id type='integer'>7363</id>
           <name>Peter Gibbons</name>
           <email>peter.gibbons@initech.com</email>
           <title/>
           <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
-          <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+          <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
           <karma_score type='integer'>13</karma_score>
-          <traits>
-            <browser_name>Chrome</browser_name>
-            <location_city>Union City</location_city>
-            <location_country>United States</location_country>
-            <location_region>CA</location_region>
-            <os_name>Mac OS X</os_name>
-            <created_at type='integer'>1394126617000</created_at>
-          </traits>
+          <traits> </traits>
           <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-          <updated_at type='datetime'>2013-09-17T16:40:07Z</updated_at>
+          <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
         </sender>
         <attachments type='array'> </attachments>
+        <ccs type='array'> </ccs>
+        <bccs type='array'> </bccs>
         <created_at type='datetime'>2012-07-30T14:06:08Z</created_at>
         <updated_at type='datetime'>2012-07-30T14:06:08Z</updated_at>
       </message>
@@ -101,21 +95,22 @@
         <body>Mr. Lumbergh told me to talk to payroll and then payroll told me to talk to Mr. Lumbergh and I still haven't received my paycheck and he took my stapler and he never brought it back and then they moved my desk to storage room B and there was garbage on it. </body>
         <plaintext_body>Mr. Lumbergh told me to talk to payroll and then payroll told me to talk to Mr. Lumbergh and I still haven't received my paycheck and he took my stapler and he never brought it back and then they moved my desk to storage room B and there was garbage on it. </plaintext_body>
         <is_admin_response type='boolean'>false</is_admin_response>
+        <referrer/>
         <sender>
           <id type='integer'>27002132</id>
           <name>Milton Waddams</name>
           <email>milton.waddams.basement@initech.com</email>
           <title/>
           <url>http://initech.uservoice.com/users/27002132-milton-waddams</url>
-          <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+          <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70</avatar_url>
           <karma_score type='integer'>0</karma_score>
-          <traits>
-            <created_at/>
-          </traits>
+          <traits> </traits>
           <created_at type='datetime'>2012-07-30T14:04:07Z</created_at>
           <updated_at type='datetime'>2012-07-30T14:13:27Z</updated_at>
         </sender>
         <attachments type='array'> </attachments>
+        <ccs type='array'> </ccs>
+        <bccs type='array'> </bccs>
         <created_at type='datetime'>2012-07-30T14:04:07Z</created_at>
         <updated_at type='datetime'>2012-07-30T14:04:07Z</updated_at>
       </message>
@@ -127,18 +122,11 @@
       <email>peter.gibbons@initech.com</email>
       <title/>
       <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
-      <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+      <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
       <karma_score type='integer'>13</karma_score>
-      <traits>
-        <browser_name>Chrome</browser_name>
-        <location_city>Union City</location_city>
-        <location_country>United States</location_country>
-        <location_region>CA</location_region>
-        <os_name>Mac OS X</os_name>
-        <created_at type='integer'>1394126617000</created_at>
-      </traits>
+      <traits> </traits>
       <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-      <updated_at type='datetime'>2013-09-17T16:40:07Z</updated_at>
+      <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
     </assignee>
     <created_by>
       <id type='integer'>27002132</id>
@@ -146,11 +134,9 @@
       <email>milton.waddams.basement@initech.com</email>
       <title/>
       <url>http://initech.uservoice.com/users/27002132-milton-waddams</url>
-      <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+      <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70</avatar_url>
       <karma_score type='integer'>0</karma_score>
-      <traits>
-        <created_at/>
-      </traits>
+      <traits> </traits>
       <created_at type='datetime'>2012-07-30T14:04:07Z</created_at>
       <updated_at type='datetime'>2012-07-30T14:13:27Z</updated_at>
     </created_by>
@@ -160,18 +146,11 @@
       <email>peter.gibbons@initech.com</email>
       <title/>
       <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
-      <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+      <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
       <karma_score type='integer'>13</karma_score>
-      <traits>
-        <browser_name>Chrome</browser_name>
-        <location_city>Union City</location_city>
-        <location_country>United States</location_country>
-        <location_region>CA</location_region>
-        <os_name>Mac OS X</os_name>
-        <created_at type='integer'>1394126617000</created_at>
-      </traits>
+      <traits> </traits>
       <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-      <updated_at type='datetime'>2013-09-17T16:40:07Z</updated_at>
+      <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
     </updated_by>
     <contact>
       <id type='integer'>27002132</id>
@@ -179,11 +158,9 @@
       <email>milton.waddams.basement@initech.com</email>
       <title/>
       <url>http://initech.uservoice.com/users/27002132-milton-waddams</url>
-      <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+      <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70</avatar_url>
       <karma_score type='integer'>0</karma_score>
-      <traits>
-        <created_at/>
-      </traits>
+      <traits> </traits>
       <created_at type='datetime'>2012-07-30T14:04:07Z</created_at>
       <updated_at type='datetime'>2012-07-30T14:13:27Z</updated_at>
     </contact>

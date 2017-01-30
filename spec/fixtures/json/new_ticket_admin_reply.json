@@ -11,13 +11,11 @@
       "email": "milton.waddams.basement@initech.com",
       "title": null,
       "url": "http://initech.uservoice.com/users/27002132-milton-waddams",
-      "avatar_url": "https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
+      "avatar_url": "https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70",
       "karma_score": 0,
-      "traits": {
-        "created_at": null
-      },
-      "created_at": "2012/07/30 14:04:07 +0000",
-      "updated_at": "2012/07/30 14:13:27 +0000"
+      "traits": "\n",
+      "created_at": "2012-07-30T14:04:07.000Z",
+      "updated_at": "2012-07-30T14:13:27.000Z"
     }
   },
   "message": {
@@ -26,24 +24,29 @@
     "body": "I told Bill that if they move my desk one more time, then, then I'm, I'm\nquitting, I'm going to quit. And, and I told Don too, because they've moved\nmy desk four times already this year, and I used to be over by the window,\nand I could see the squirrels, and they were married, but then, they\nswitched from the Swingline to the Boston stapler, but I kept my Swingline\nstapler because it didn't bind up as much, and I kept the staples for the\nSwingline stapler and it's not okay because if they take my stapler then\nI'll set the building on fire.\n",
     "plaintext_body": "I told Bill that if they move my desk one more time, then, then I'm, I'm\nquitting, I'm going to quit. And, and I told Don too, because they've moved\nmy desk four times already this year, and I used to be over by the window,\nand I could see the squirrels, and they were married, but then, they\nswitched from the Swingline to the Boston stapler, but I kept my Swingline\nstapler because it didn't bind up as much, and I kept the staples for the\nSwingline stapler and it's not okay because if they take my stapler then\nI'll set the building on fire.\n",
     "is_admin_response": false,
+    "referrer": null,
     "sender": {
       "id": 27002132,
       "name": "Milton Waddams",
       "email": "milton.waddams.basement@initech.com",
       "title": null,
       "url": "http://initech.uservoice.com/users/27002132-milton-waddams",
-      "avatar_url": "https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
+      "avatar_url": "https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70",
       "karma_score": 0,
-      "traits": {
-        "created_at": null
-      },
-      "created_at": "2012/07/30 14:04:07 +0000",
-      "updated_at": "2012/07/30 14:13:27 +0000"
+      "traits": "\n",
+      "created_at": "2012-07-30T14:04:07.000Z",
+      "updated_at": "2012-07-30T14:13:27.000Z"
     },
     "attachments": [
 
     ],
-    "created_at": "2012/07/30 14:09:15 +0000",
-    "updated_at": "2012/07/30 14:09:15 +0000"
+    "ccs": [
+
+    ],
+    "bccs": [
+
+    ],
+    "created_at": "2012-07-30T14:09:15.000Z",
+    "updated_at": "2012-07-30T14:09:15.000Z"
   }
 }

@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <response>
   <audit_status>
-    <id type='integer'>852059</id>
     <suggestion>
       <url>http://initech.uservoice.com/forums/1155-initech/suggestions/7842-hawaiian-shirt-day</url>
       <path>/forums/1155-initech/suggestions/7842-hawaiian-shirt-day</path>
@@ -11,23 +10,25 @@
       <text>I think this would be a great idea for morale.</text>
       <formatted_text>&lt;div class="typeset"&gt;&lt;p&gt;I think this would be a great idea for morale.&lt;/p&gt;&lt;/div&gt;</formatted_text>
       <referrer/>
-      <vote_count type='integer'>7</vote_count>
-      <subscriber_count type='integer'>276</subscriber_count>
-      <comments_count type='integer'>0</comments_count>
-      <supporters_count type='integer'>8</supporters_count>
+      <vote_count type='integer'>11</vote_count>
+      <subscriber_count type='integer'>278</subscriber_count>
+      <comments_count type='integer'>1</comments_count>
+      <supporters_count type='integer'>278</supporters_count>
+      <merged_into_suggestion_id type='integer'/>
       <topic>
         <id type='integer'>1155</id>
         <prompt>I suggest you...</prompt>
         <example>Enter your idea</example>
         <votes_allowed type='integer'>10</votes_allowed>
-        <suggestions_count type='integer'>123</suggestions_count>
-        <open_suggestions_count type='integer'>6</open_suggestions_count>
+        <suggestions_count type='integer'>124</suggestions_count>
+        <open_suggestions_count type='integer'>7</open_suggestions_count>
         <closed type='boolean'>false</closed>
         <anonymous_access type='boolean'>true</anonymous_access>
         <unlimited_votes type='boolean'>false</unlimited_votes>
+        <classic_voting>true</classic_voting>
         <closed_at type='datetime'/>
         <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-        <updated_at type='datetime'>2011-03-11T06:31:47Z</updated_at>
+        <updated_at type='datetime'>2015-09-01T15:16:59Z</updated_at>
         <forum>
           <id>1155</id>
           <name>Initech</name>
@@ -47,32 +48,35 @@
         <email>peter.gibbons@initech.com</email>
         <title/>
         <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
-        <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+        <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
         <karma_score type='integer'>13</karma_score>
-        <traits>
-          <browser_name>Chrome</browser_name>
-          <location_city>Union City</location_city>
-          <location_country>United States</location_country>
-          <location_region>CA</location_region>
-          <os_name>Mac OS X</os_name>
-          <created_at type='integer'>1394126617000</created_at>
-        </traits>
+        <traits> </traits>
         <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-        <updated_at type='datetime'>2013-09-17T16:40:07Z</updated_at>
+        <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
       </status_changed_by>
+      <audit_statuses>
+        <id type='integer'>550449</id>
+        <initial_status nil='true'/>
+        <final_status>
+          <id type='integer'>7256</id>
+          <name>planned</name>
+          <hex_color>#F0BA00</hex_color>
+          <key>planned</key>
+        </final_status>
+        <created_at type='datetime'>2012-07-27T20:39:00Z</created_at>
+        <updated_at type='datetime'>2012-07-27T20:39:00Z</updated_at>
+      </audit_statuses>
       <creator>
         <id type='integer'>7324</id>
         <name>billlumbergh</name>
         <email>Bill.Lumbergh@initech.com</email>
         <title/>
         <url>http://initech.uservoice.com/users/7324-billlumbergh</url>
-        <avatar_url>https://secure.gravatar.com/avatar/b1fa866cd2c9f4e191305b42199631ed?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
-        <karma_score type='integer'>110</karma_score>
-        <traits>
-          <created_at/>
-        </traits>
+        <avatar_url>https://secure.gravatar.com/avatar/b1fa866cd2c9f4e191305b42199631ed?size=70</avatar_url>
+        <karma_score type='integer'>112</karma_score>
+        <traits> </traits>
         <created_at type='datetime'>2008-06-15T22:48:07Z</created_at>
-        <updated_at type='datetime'>2012-09-21T13:00:39Z</updated_at>
+        <updated_at type='datetime'>2015-04-28T02:00:14Z</updated_at>
       </creator>
       <response>
         <text>So, you know, if you want to, go ahead and wear a Hawaiian shirt and jeans.</text>
@@ -84,23 +88,16 @@
           <email>peter.gibbons@initech.com</email>
           <title/>
           <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
-          <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+          <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
           <karma_score type='integer'>13</karma_score>
-          <traits>
-            <browser_name>Chrome</browser_name>
-            <location_city>Union City</location_city>
-            <location_country>United States</location_country>
-            <location_region>CA</location_region>
-            <os_name>Mac OS X</os_name>
-            <created_at type='integer'>1394126617000</created_at>
-          </traits>
+          <traits> </traits>
           <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-          <updated_at type='datetime'>2013-09-17T16:40:07Z</updated_at>
+          <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
         </creator>
       </response>
       <attachments type='array'> </attachments>
       <created_at type='datetime'>2008-06-15T22:48:22Z</created_at>
-      <updated_at type='datetime'>2012-09-21T12:46:07Z</updated_at>
+      <updated_at type='datetime'>2015-08-26T21:45:03Z</updated_at>
     </suggestion>
     <user>
       <id type='integer'>7363</id>
@@ -108,19 +105,13 @@
       <email>peter.gibbons@initech.com</email>
       <title/>
       <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
-      <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+      <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
       <karma_score type='integer'>13</karma_score>
-      <traits>
-        <browser_name>Chrome</browser_name>
-        <location_city>Union City</location_city>
-        <location_country>United States</location_country>
-        <location_region>CA</location_region>
-        <os_name>Mac OS X</os_name>
-        <created_at type='integer'>1394126617000</created_at>
-      </traits>
+      <traits> </traits>
       <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-      <updated_at type='datetime'>2013-09-17T16:40:07Z</updated_at>
+      <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
     </user>
+    <id type='integer'>550449</id>
     <initial_status nil='true'/>
     <final_status>
       <id type='integer'>7256</id>
