@@ -50,7 +50,6 @@
         <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
         <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
         <karma_score type='integer'>13</karma_score>
-        <traits> </traits>
         <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
         <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
       </status_changed_by>
@@ -74,7 +73,6 @@
         <url>http://initech.uservoice.com/users/7324-billlumbergh</url>
         <avatar_url>https://secure.gravatar.com/avatar/b1fa866cd2c9f4e191305b42199631ed?size=70</avatar_url>
         <karma_score type='integer'>112</karma_score>
-        <traits> </traits>
         <created_at type='datetime'>2008-06-15T22:48:07Z</created_at>
         <updated_at type='datetime'>2015-04-28T02:00:14Z</updated_at>
       </creator>
@@ -90,7 +88,6 @@
           <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
           <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
           <karma_score type='integer'>13</karma_score>
-          <traits> </traits>
           <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
           <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
         </creator>
@@ -107,7 +104,6 @@
       <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
       <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
       <karma_score type='integer'>13</karma_score>
-      <traits> </traits>
       <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
       <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
     </user>

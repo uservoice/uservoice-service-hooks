@@ -29,7 +29,6 @@
           <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
           <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
           <karma_score type='integer'>13</karma_score>
-          <traits> </traits>
           <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
           <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
         </sender>
@@ -54,7 +53,6 @@
           <url>http://initech.uservoice.com/users/27002132-milton-waddams</url>
           <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70</avatar_url>
           <karma_score type='integer'>0</karma_score>
-          <traits> </traits>
           <created_at type='datetime'>2012-07-30T14:04:07Z</created_at>
           <updated_at type='datetime'>2012-07-30T14:13:27Z</updated_at>
         </sender>
@@ -79,7 +77,6 @@
           <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
           <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
           <karma_score type='integer'>13</karma_score>
-          <traits> </traits>
           <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
           <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
         </sender>
@@ -104,7 +101,6 @@
           <url>http://initech.uservoice.com/users/27002132-milton-waddams</url>
           <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70</avatar_url>
           <karma_score type='integer'>0</karma_score>
-          <traits> </traits>
           <created_at type='datetime'>2012-07-30T14:04:07Z</created_at>
           <updated_at type='datetime'>2012-07-30T14:13:27Z</updated_at>
         </sender>
@@ -124,7 +120,6 @@
       <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
       <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
       <karma_score type='integer'>13</karma_score>
-      <traits> </traits>
       <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
       <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
     </assignee>
@@ -136,7 +131,6 @@
       <url>http://initech.uservoice.com/users/27002132-milton-waddams</url>
       <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70</avatar_url>
       <karma_score type='integer'>0</karma_score>
-      <traits> </traits>
       <created_at type='datetime'>2012-07-30T14:04:07Z</created_at>
       <updated_at type='datetime'>2012-07-30T14:13:27Z</updated_at>
     </created_by>
@@ -148,7 +142,6 @@
       <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
       <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
       <karma_score type='integer'>13</karma_score>
-      <traits> </traits>
       <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
       <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
     </updated_by>
@@ -160,7 +153,6 @@
       <url>http://initech.uservoice.com/users/27002132-milton-waddams</url>
       <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70</avatar_url>
       <karma_score type='integer'>0</karma_score>
-      <traits> </traits>
       <created_at type='datetime'>2012-07-30T14:04:07Z</created_at>
       <updated_at type='datetime'>2012-07-30T14:13:27Z</updated_at>
     </contact>

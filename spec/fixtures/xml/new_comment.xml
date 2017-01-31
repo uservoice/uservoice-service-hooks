@@ -68,7 +68,6 @@
         <url>http://initech.uservoice.com/users/7325-dom-portwood</url>
         <avatar_url>https://secure.gravatar.com/avatar/840ea731a276471eb1768edaa608782e?size=70</avatar_url>
         <karma_score type='integer'>39</karma_score>
-        <traits> </traits>
         <created_at type='datetime'>2008-06-15T22:52:38Z</created_at>
         <updated_at type='datetime'>2011-11-23T21:30:16Z</updated_at>
       </creator>
@@ -84,7 +83,6 @@
           <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
           <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
           <karma_score type='integer'>13</karma_score>
-          <traits> </traits>
           <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
           <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
         </creator>
@@ -103,7 +101,6 @@
       <url>http://initech.uservoice.com/users/7328--marcusnelson</url>
       <avatar_url>https://secure.gravatar.com/avatar/90006a927d4d7677a7cc3d1a57a88060?size=70</avatar_url>
       <karma_score type='integer'>9</karma_score>
-      <traits> </traits>
       <created_at type='datetime'>2008-02-03T19:28:00Z</created_at>
       <updated_at type='datetime'>2012-08-17T20:00:57Z</updated_at>
     </creator>
