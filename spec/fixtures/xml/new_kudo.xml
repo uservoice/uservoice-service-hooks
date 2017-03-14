@@ -14,11 +14,8 @@
         <email>milton.waddams.basement@initech.com</email>
         <title/>
         <url>http://initech.uservoice.com/users/27002132-milton-waddams</url>
-        <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+        <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70</avatar_url>
         <karma_score type='integer'>0</karma_score>
-        <traits>
-          <created_at/>
-        </traits>
         <created_at type='datetime'>2012-07-30T14:04:07Z</created_at>
         <updated_at type='datetime'>2012-07-30T14:13:27Z</updated_at>
       </contact>
@@ -29,26 +26,21 @@
       <body>Okay Milton, I found it for you. It's on your desk.</body>
       <plaintext_body>Okay Milton, I found it for you. It's on your desk.</plaintext_body>
       <is_admin_response type='boolean'>true</is_admin_response>
+      <referrer/>
       <sender>
         <id type='integer'>7363</id>
         <name>Peter Gibbons</name>
         <email>peter.gibbons@initech.com</email>
         <title/>
         <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
-        <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+        <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
         <karma_score type='integer'>13</karma_score>
-        <traits>
-          <browser_name>Chrome</browser_name>
-          <location_city>Union City</location_city>
-          <location_country>United States</location_country>
-          <location_region>CA</location_region>
-          <os_name>Mac OS X</os_name>
-          <created_at type='integer'>1394126617000</created_at>
-        </traits>
         <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-        <updated_at type='datetime'>2013-09-17T16:40:07Z</updated_at>
+        <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
       </sender>
       <attachments type='array'> </attachments>
+      <ccs type='array'> </ccs>
+      <bccs type='array'> </bccs>
       <created_at type='datetime'>2012-07-30T14:10:53Z</created_at>
       <updated_at type='datetime'>2012-07-30T14:10:53Z</updated_at>
     </message>
@@ -58,11 +50,8 @@
       <email>milton.waddams.basement@initech.com</email>
       <title/>
       <url>http://initech.uservoice.com/users/27002132-milton-waddams</url>
-      <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+      <avatar_url>https://secure.gravatar.com/avatar/4511fce202f08106c333585ce408ec6b?size=70</avatar_url>
       <karma_score type='integer'>0</karma_score>
-      <traits>
-        <created_at/>
-      </traits>
       <created_at type='datetime'>2012-07-30T14:04:07Z</created_at>
       <updated_at type='datetime'>2012-07-30T14:13:27Z</updated_at>
     </sender>

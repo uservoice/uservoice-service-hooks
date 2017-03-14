@@ -7,7 +7,7 @@
     <title>Proper TPS Cover Report Usage</title>
     <text>In this document I am going to walk you though the TPS Cover Report generation and usage....</text>
     <formatted_text>&lt;p&gt;In this document I am going to walk you though the TPS Cover Report generation and usage....&lt;/p&gt;</formatted_text>
-    <uses type='integer'>5</uses>
+    <uses type='integer'>8</uses>
     <instant_answers type='integer'>1</instant_answers>
     <published type='boolean'>true</published>
     <updated_by>
@@ -16,18 +16,10 @@
       <email>peter.gibbons@initech.com</email>
       <title/>
       <url>http://initech.uservoice.com/users/7363-peter-gibbons</url>
-      <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&amp;default=//cdn.uservoice.com/pkg/admin/icons/user_70.png</avatar_url>
+      <avatar_url>https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70</avatar_url>
       <karma_score type='integer'>13</karma_score>
-      <traits>
-        <browser_name>Chrome</browser_name>
-        <location_city>Union City</location_city>
-        <location_country>United States</location_country>
-        <location_region>CA</location_region>
-        <os_name>Mac OS X</os_name>
-        <created_at type='integer'>1394126617000</created_at>
-      </traits>
       <created_at type='datetime'>2008-06-15T21:43:24Z</created_at>
-      <updated_at type='datetime'>2013-09-17T16:40:07Z</updated_at>
+      <updated_at type='datetime'>2016-12-19T13:32:53Z</updated_at>
     </updated_by>
     <topic nil='true'/>
     <created_at type='datetime'>2012-07-27T20:34:55Z</created_at>

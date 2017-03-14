@@ -5,31 +5,33 @@
     "text": "What coversheets?  Did I get that memo?  Was there a memo?",
     "formatted_text": "<div class=\"typeset\"><p>What coversheets?  Did I get that memo?  Was there a memo?</p></div>",
     "suggestion": {
-      "url": "http://initech.uservoice.com/forums/1155-initech/suggestions/7843-reminder-new-coversheets-on-tps-reports",
-      "path": "/forums/1155-initech/suggestions/7843-reminder-new-coversheets-on-tps-reports",
+      "url": "http://initech.uservoice.com/forums/1155-initech/suggestions/7843-reminder-new-coversheets-on-tps-reports-dfdf",
+      "path": "/forums/1155-initech/suggestions/7843-reminder-new-coversheets-on-tps-reports-dfdf",
       "id": 7843,
       "state": "approved",
-      "title": "Reminder - New Coversheets on TPS Reports",
+      "title": "Reminder - New Coversheets on TPS Reports dfdf",
       "text": "We're putting new coversheets on all the TPS reports before they go out now. So if you could go ahead and try to remember to do that from now on, that'd be great. All right?",
-      "formatted_text": "<div class=\"typeset\"><p>We&#39;re putting new coversheets on all the TPS reports before they go out now. So if you could go ahead and try to remember to do that from now on, that&#39;d be great. All right?</p></div>",
+      "formatted_text": "<div class=\"typeset\"><p>We're putting new coversheets on all the TPS reports before they go out now. So if you could go ahead and try to remember to do that from now on, that'd be great. All right?</p></div>",
       "referrer": null,
-      "vote_count": 24,
-      "subscriber_count": 8637,
-      "comments_count": 1,
-      "supporters_count": 17,
+      "vote_count": 31,
+      "subscriber_count": 8644,
+      "comments_count": 2,
+      "supporters_count": 8644,
+      "merged_into_suggestion_id": null,
       "topic": {
         "id": 1155,
         "prompt": "I suggest you...",
         "example": "Enter your idea",
         "votes_allowed": 10,
-        "suggestions_count": 123,
-        "open_suggestions_count": 6,
+        "suggestions_count": 124,
+        "open_suggestions_count": 7,
         "closed": false,
         "anonymous_access": true,
         "unlimited_votes": false,
+        "classic_voting": "true",
         "closed_at": null,
-        "created_at": "2008/06/15 21:43:24 +0000",
-        "updated_at": "2011/03/11 06:31:47 +0000",
+        "created_at": "2008-06-15T21:43:24.000Z",
+        "updated_at": "2015-09-01T15:16:59.000Z",
         "forum": {
           "id": "1155",
           "name": "Initech"
@@ -43,49 +45,54 @@
         "hex_color": "#999999",
         "key": "under-review"
       },
+      "audit_statuses": [
+        {
+          "id": 448,
+          "initial_status": null,
+          "final_status": null,
+          "created_at": "2008-06-15T23:17:25.000Z",
+          "updated_at": "2008-06-15T23:17:25.000Z"
+        },
+        {
+          "id": 620,
+          "initial_status": null,
+          "final_status": null,
+          "created_at": "2008-07-03T21:19:48.000Z",
+          "updated_at": "2008-07-03T21:19:48.000Z"
+        }
+      ],
       "creator": {
         "id": 7325,
         "name": "Dom.Portwood",
         "email": "Dom.Portwood@initech.com",
         "title": null,
         "url": "http://initech.uservoice.com/users/7325-dom-portwood",
-        "avatar_url": "https://secure.gravatar.com/avatar/840ea731a276471eb1768edaa608782e?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
+        "avatar_url": "https://secure.gravatar.com/avatar/840ea731a276471eb1768edaa608782e?size=70",
         "karma_score": 39,
-        "traits": {
-          "created_at": null
-        },
-        "created_at": "2008/06/15 22:52:38 +0000",
-        "updated_at": "2011/11/23 21:30:16 +0000"
+        "created_at": "2008-06-15T22:52:38.000Z",
+        "updated_at": "2011-11-23T21:30:16.000Z"
       },
       "response": {
         "text": "Just to let everyone know - you should have received a memo in your company inbox.  If not, please see Peggy in Human Resources.",
         "formatted_text": "<div class=\"typeset\"><p>Just to let everyone know - you should have received a memo in your company inbox.  If not, please see Peggy in Human Resources.</p></div>",
-        "created_at": "2008/07/03 21:19:48 +0000",
+        "created_at": "2008-07-03T21:19:48.000Z",
         "creator": {
           "id": 7363,
           "name": "Peter Gibbons",
           "email": "peter.gibbons@initech.com",
           "title": null,
           "url": "http://initech.uservoice.com/users/7363-peter-gibbons",
-          "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
+          "avatar_url": "https://secure.gravatar.com/avatar/cb7865556d41a3d800ae7dbb31d51d54?size=70",
           "karma_score": 13,
-          "traits": {
-            "browser_name": "Chrome",
-            "location_city": "Union City",
-            "location_country": "United States",
-            "location_region": "CA",
-            "os_name": "Mac OS X",
-            "created_at": 1394126617000
-          },
-          "created_at": "2008/06/15 21:43:24 +0000",
-          "updated_at": "2013/09/17 16:40:07 +0000"
+          "created_at": "2008-06-15T21:43:24.000Z",
+          "updated_at": "2016-12-19T13:32:53.000Z"
         }
       },
       "attachments": [
 
       ],
-      "created_at": "2008/06/15 22:53:07 +0000",
-      "updated_at": "2014/01/03 06:51:07 +0000"
+      "created_at": "2008-06-15T22:53:07.000Z",
+      "updated_at": "2016-01-26T22:15:05.000Z"
     },
     "suggestion_id": "7843",
     "forum_id": "1155",
@@ -95,15 +102,12 @@
       "email": "marcus@addvocate.co",
       "title": null,
       "url": "http://initech.uservoice.com/users/7328--marcusnelson",
-      "avatar_url": "https://secure.gravatar.com/avatar/90006a927d4d7677a7cc3d1a57a88060?size=70&default=//cdn.uservoice.com/pkg/admin/icons/user_70.png",
+      "avatar_url": "https://secure.gravatar.com/avatar/90006a927d4d7677a7cc3d1a57a88060?size=70",
       "karma_score": 9,
-      "traits": {
-        "created_at": null
-      },
-      "created_at": "2008/02/03 19:28:00 +0000",
-      "updated_at": "2012/08/17 20:00:57 +0000"
+      "created_at": "2008-02-03T19:28:00.000Z",
+      "updated_at": "2012-08-17T20:00:57.000Z"
     },
-    "created_at": "2008/06/15 23:15:07 +0000",
-    "updated_at": "2008/06/15 23:15:07 +0000"
+    "created_at": "2008-06-15T23:15:07.000Z",
+    "updated_at": "2008-06-15T23:15:07.000Z"
   }
 }
