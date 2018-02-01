@@ -10,9 +10,9 @@ describe Services::Campfire do
     let(:data) { {'auth_token' => token, 'room' => room, 'subdomain' => campfire_subdomain} }
     let(:message) { "Peter Gibbons received Kudos! from Milton Waddams on I can't find my stapler -- https://initech.uservoice.com/admin/tickets/22" }
     let(:body) { "<message><type>TextMessage</type><body>#{message}</body></message>" }
-    let(:stub_url) { "https://#{token}:X@#{campfire_subdomain}.campfirenow.com:443/room/#{room}/speak.xml" }
+    let(:stub_url) { "https://#{campfire_subdomain}.campfirenow.com:443/room/#{room}/speak.xml" }
 
-    before { stub_request(:post, stub_url) }
+    before { stub_request(:post, stub_url).with(headers: { 'Authorization'=>'Basic dGVzdC10b2tlbjpY'}) }
 
     it 'should post to campfire' do
       Services::Campfire.new(event, data, api_xml).perform

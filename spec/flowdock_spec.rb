@@ -16,7 +16,7 @@ describe Services::Flowdock do
 
     it 'should strip an extra line from token and be valid' do
       @data = { 'token' => "deadbeef123\n" }
-      subject.valid_token?.should be_true
+      subject.valid_token?.should == true
     end
   end
 

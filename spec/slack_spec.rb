@@ -8,7 +8,7 @@ describe Services::Slack do
     before { stub_request(:post, 'https://hooks.slack.com/services/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') }
 
     it 'should post to Slack' do
-      Services::Slack.new(event, {'url_hash' => 'T02K38RR6/B03BDUGTX/aXU9IYaWtwsTWazDcW5uUeLY'}, api_xml).perform
+      Services::Slack.new(event, {'url_hash' => 'https://hooks.slack.com/services/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'}, api_xml).perform
       a_request(:post, 'https://hooks.slack.com/services/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').with(:body => {:username => 'UserVoice', :text =>  "Peter Gibbons received *Kudos*! from Milton Waddams on <https://initech.uservoice.com/admin/tickets/22|I can't find my stapler>", :icon_url=>"https://pbs.twimg.com/profile_images/336739559/twitter_avatar_UserVoice.png"}.to_json).should have_been_made
     end
   end

@@ -1,6 +1,5 @@
 class Services::Netsuite < Services::Base
   service_name "Netsuite"
-  beta true
   events_allowed %w[ new_ticket ]
 
   STANDARD_CASE_FORM_ID = -100
